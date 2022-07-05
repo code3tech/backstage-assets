@@ -62,7 +62,7 @@ spec:
       action: http:backstage:request
       input:
         method: 'PUT'
-        path: 'https://jenkins-proxy.kode3.app//api/v1/contract/swagger?projectUrl=vvtlfnc&projectName=${{ parameters.api }}'
+        path: 'https://gitlab-proxy.kode3.app/api/v1/contract/swagger?projectUrl=vvtlfnc&projectName=${{ parameters.api }}'
         body:
           name: '${{ parameters.user }}'
           mail: '${{ parameters.mail }}'

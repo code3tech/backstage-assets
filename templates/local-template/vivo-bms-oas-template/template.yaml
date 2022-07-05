@@ -83,21 +83,21 @@ spec:
       action: http:backstage:request
       input:
         method: 'GET'
-        path: 'https://jenkins-proxy.kode3.app/crumbIssuer/api/json'
+        path: 'https://jenkins.kode3.app/crumbIssuer/api/json'
         headers:
           content-type: 'application/json'
-          Authorization: 'Basic YWRtaW46MTFjNGI3ODA5MjZmN2QwNmU5M2MyZGE2YTQ3MDYyN2UwMw=='
+          Authorization: 'Basic YWRtaW46YWYyMmViMjItNWIxNy00NzkwLTg4NTYtNDNlMjRkOGQzYzUz'
 
     - id: create_pipeline_request
       name: Creating Pipeline
       action: http:backstage:request
       input:
         method: 'POST'
-        path: 'https://jenkins.kode3.app/api/pipeline?name=${{ parameters.component_id }}'
+        path: 'https://jenkins-proxy.kode3.app/api/pipeline?name=${{ parameters.component_id }}'
         headers:
           content-type: 'application/xml'
           Jenkins-Crumb: '${{ steps.csrf_request.output.body.crumb }}'
-          Authorization: 'Basic YWRtaW46MTFjNGI3ODA5MjZmN2QwNmU5M2MyZGE2YTQ3MDYyN2UwMw=='
+          Authorization: 'Basic YWRtaW46YWYyMmViMjItNWIxNy00NzkwLTg4NTYtNDNlMjRkOGQzYzUz'
           Cookie: '${{ steps.csrf_request.output.headers.setCookie }}'
 
     - id: publish
@@ -113,21 +113,21 @@ spec:
       action: http:backstage:request
       input:
         method: 'GET'
-        path: 'https://jenkins-proxy.kode3.app/crumbIssuer/api/json'
+        path: 'https://jenkins.kode3.app/crumbIssuer/api/json'
         headers:
           content-type: 'application/json'
-          Authorization: 'Basic YWRtaW46MTFjNGI3ODA5MjZmN2QwNmU5M2MyZGE2YTQ3MDYyN2UwMw=='
+          Authorization: 'Basic YWRtaW46YWYyMmViMjItNWIxNy00NzkwLTg4NTYtNDNlMjRkOGQzYzUz'
 
     - id: scan_pipeline_request
       name: Scan Pipeline
       action: http:backstage:request
       input:
         method: 'POST'
-        path: 'https://jenkins-proxy.kode3.app/job/vvtlfnc/job/${{ parameters.component_id }}/build'
+        path: 'https://jenkins.kode3.app/job/vvtlfnc/job/${{ parameters.component_id }}/build'
         headers:
           content-type: 'application/xml'
           Jenkins-Crumb: '${{ steps.csrf_request_2.output.body.crumb }}'
-          Authorization: 'Basic YWRtaW46MTFjNGI3ODA5MjZmN2QwNmU5M2MyZGE2YTQ3MDYyN2UwMw=='
+          Authorization: 'Basic YWRtaW46YWYyMmViMjItNWIxNy00NzkwLTg4NTYtNDNlMjRkOGQzYzUz'
           Cookie: '${{ steps.csrf_request_2.output.headers.setCookie }}'
 
     - id: register
