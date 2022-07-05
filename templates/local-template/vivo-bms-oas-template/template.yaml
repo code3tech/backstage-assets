@@ -105,7 +105,7 @@ spec:
       action: publish:gitlab
       input:
         allowedHosts: ["gitlab.com"]
-        description: Thi/template.yamls is ${{ parameters.component_id }}
+        description: This template.yamls is ${{ parameters.component_id }}
         repoUrl: "gitlab.com?owner=vvtlfnc&repo=${{ parameters.component_id }}"
 
     - id: csrf_request_2
