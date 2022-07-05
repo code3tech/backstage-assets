@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Domain
+metadata:
+  name: functional-domain
+  title: Functional TMForum
+  description: Functional TMForum
+  annotations:
+    kode3.tech/tmforum-color: '255 255 255'
+  tags:
+    - 'tmforum'
+spec:
+  owner: digitais

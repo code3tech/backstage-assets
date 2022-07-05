@@ -1,0 +1,51 @@
+apiVersion: backstage.io/v1alpha1
+kind: Location
+metadata:
+  name: example-domains-tmforum
+  description: A collection of all Backstage example entities, except users, groups, and templates
+spec:
+  targets:
+#  - ./domain-01.yaml
+#  - ./domain-02.yaml
+#  - ./domain-03.yaml
+#  - ./domain-04.yaml
+#  - ./domain-05.yaml
+#  - ./domain-06.yaml
+#  - ./domain-07.yaml
+#  - ./domain-08.yaml
+#  - ./domain-09.yaml
+#  - ./domain-10.yaml
+#  - ./domain-11.yaml
+  - ./enterprise-management-domain.yaml
+  - ./cross-domain.yaml
+  - ./product-domain.yaml
+  - ./customer-domain.yaml
+  - ./resource-domain.yaml
+  - ./integration-domain.yaml
+  - ./common-domain.yaml
+
+
+  - ./business-partner-domain.yaml
+  - ./systems/business-partner-management-system.yaml
+  - ./systems/business-partner-inventory-management-system.yaml
+  - ./systems/business-partner-agreement-management-system.yaml
+  - ./systems/business-partner-support-and-readiness-domain.yaml
+  - ./systems/contract-management-system.yaml
+  - ./systems/partner-agreement-creation-system.yaml
+  - ./systems/partner-agreement-storage-and-searching-system.yaml
+  - ./systems/partner-agreement-implementation-system.yaml
+  - ./systems/partner-agreement-tracking-system.yaml
+
+  - ./market-sales-domain.yaml
+  - ../systems/market-sales-domain/channel-sale-management-system.yaml
+  - ../systems/market-sales-domain/sale-account-management-system.yaml
+
+  - ./service-domain.yaml
+  - ../systems/service-domain/service-activation-management-system.yaml
+  - ../systems/service-domain/service-activation-system.yaml
+  - ../systems/service-domain/service-availability-system.yaml
+  - ../systems/service-domain/service-configuration-management-system.yaml
+  - ../systems/service-domain/service-inventory-management-system.yaml
+  - ../systems/service-domain/service-inventory-system.yaml
+  - ../systems/service-domain/service-order-management-system.yaml
+  - ../systems/service-domain/service-problem-analysis-system.yaml

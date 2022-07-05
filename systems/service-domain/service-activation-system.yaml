@@ -1,0 +1,15 @@
+apiVersion: backstage.io/v1alpha1
+kind: System
+metadata:
+  name: svc-activation-sys
+  title: Service Activation
+  description: Service Activation
+  annotations:
+    kode3.tech/tmforum-color: ''
+  tags:
+    - 'tmforum'
+    - 'function'
+
+spec:
+  owner: integration-group
+  domain: service-domain

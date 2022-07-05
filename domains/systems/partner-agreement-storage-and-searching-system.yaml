@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: System
+metadata:
+  name: partner-agreement-storage-and-searching-system
+  title: Partner Agreement Storage and Searching
+  description: Partner Agreement Storage and Searching function provide the ability to view Partner's existing agreements, search for partner agreements based on meta-data and to search text strings within agreements. The data can also be mined for partner strategy, negotiation, workflow and interaction purposes.
+  annotations:
+    kode3.tech/tmforum-color: ''
+  tags:
+    - 'tmforum'
+spec:
+  owner: business-partner-group
+  partOf: business-partner-agreement-management-system
+  domain: business-partner-domain

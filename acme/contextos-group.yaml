@@ -1,0 +1,13 @@
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: contextos
+  description: The boxoffice sub-department
+spec:
+  type: sub-department
+  profile:
+    displayName: Contextos
+    email: boxoffice@example.com
+    # Intentional no picture for testing
+  parent: infrastructure
+  children: [cliente, catalogo, pagamento, pedido, frete]

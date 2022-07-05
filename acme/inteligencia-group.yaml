@@ -1,0 +1,13 @@
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: inteligencia
+  description: The boxoffice sub-department
+spec:
+  type: sub-department
+  profile:
+    displayName: Inteligência
+    email: inteligencia@example.com
+    # Intentional no picture for testing
+  parent: infrastructure
+  children: []

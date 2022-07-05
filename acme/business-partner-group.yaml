@@ -1,0 +1,13 @@
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: business-partner-group
+  description: Time de parceiros de negócio
+spec:
+  type: sub-department
+  profile:
+    displayName: Business Partners
+    email: canais@example.com
+    # Intentional no picture for testing
+  parent: infrastructure
+  children: []

@@ -1,0 +1,20 @@
+apiVersion: backstage.io/v1alpha1
+kind: Domain
+metadata:
+  name: lifecycle-management-domain
+  title: Lifecycle Management
+  description: Lifecycle Management
+  annotations:
+    kode3.tech/tmforum-color: 253 206 66
+  tags:
+    - 'tmforum'
+spec:
+  owner: digitais
+relations:
+  - type: partOf
+    #targetRef: domain:default/strategy-readiness-domain
+    target:
+      kind: domain
+      namespace: default
+      name: strategy-readiness-domain
+

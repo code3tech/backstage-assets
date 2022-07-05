@@ -1,0 +1,13 @@
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: digitais
+  description: The boxoffice sub-department
+spec:
+  type: sub-department
+  profile:
+    displayName: Digitais
+    email: digitais@example.com
+    # Intentional no picture for testing
+  parent: canais
+  children: [web, app]

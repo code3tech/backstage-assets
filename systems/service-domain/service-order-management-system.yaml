@@ -1,0 +1,15 @@
+apiVersion: backstage.io/v1alpha1
+kind: System
+metadata:
+  name: svc-order-mngt-sys
+  title: Service Order Management
+  description: Service Order Managementt
+  annotations:
+    kode3.tech/tmforum-color: ''
+  tags:
+    - 'tmforum'
+    - 'function'
+
+spec:
+  owner: integration-group
+  domain: service-domain

@@ -1,0 +1,58 @@
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: acme-corp
+  description: The acme-corp organization
+  links:
+    - url: http://www.acme.com/
+      title: Website
+    - url: https://meta.wikimedia.org/wiki/
+      title: Intranet
+spec:
+  type: organization
+  profile:
+    displayName: Telefonica
+    email: info@telefonica.com.br
+    picture: https://avatars.dicebear.com/api/identicon/info@example.com.svg?background=%23fff&margin=25
+  children: [infrastructure]
+---
+apiVersion: backstage.io/v1alpha1
+kind: Location
+metadata:
+  name: example-groups
+  description: A collection of all Backstage example Groups
+spec:
+  targets:
+    - ./infrastructure-group.yaml
+    - ./integration-group.yaml
+    - ./business-partner-group.yaml
+
+    - ./contextos-group.yaml
+    - ./cliente-group.yaml
+    - ./catalogo-group.yaml
+    - ./pagamento-group.yaml
+    - ./pedido-group.yaml
+    - ./frete-group.yaml
+
+    - ./canais-group.yaml
+    - ./digitais-group.yaml
+    - ./app-group.yaml
+    - ./web-group.yaml
+    - ./team-vitrine-group.yaml
+    - ./team-checkout-group.yaml
+    - ./team-pos-vendas-group.yaml
+    - ./team-area-logada-group.yaml
+    
+
+
+    - ./fisicos-group.yaml
+    - ./pdv-group.yaml
+
+    - ./infra-group.yaml
+    - ./inteligencia-group.yaml
+    # - ./boxoffice-group.yaml
+    # - ./backstage-group.yaml
+    - ./team-a-group.yaml
+    - ./team-b-group.yaml
+    - ./team-c-group.yaml
+    - ./team-d-group.yaml

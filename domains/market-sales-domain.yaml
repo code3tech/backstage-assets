@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Domain
+metadata:
+  name: market-sales-domain
+  title: Market & Sales
+  description: Market & Sales domain
+  annotations:
+    kode3.tech/tmforum-color: '253 159 154'
+  tags:
+    - 'tmforum'
+spec:
+  owner: digitais

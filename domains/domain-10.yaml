@@ -1,0 +1,20 @@
+apiVersion: backstage.io/v1alpha1
+kind: Domain
+metadata:
+  name: assurance-domain
+  title: Assurance
+  description: Assurance
+  annotations:
+    kode3.tech/tmforum-color: 255 157 255
+  tags:
+    - 'tmforum'
+spec:
+  owner: digitais
+relations:
+  - type: partOf
+    #targetRef: domain:default/operation-domain
+    target:
+      kind: domain
+      namespace: default
+      name: operation-domain
+

@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: cliente
+  description: The boxoffice sub-department
+spec:
+  type: sub-department
+  profile:
+    displayName: Cliente
+    email: cliente@example.com
+    # Intentional no picture for testing
+  parent: contextos
+  # children: [team-c, team-d]
+  children: [ ]

@@ -1,0 +1,15 @@
+apiVersion: backstage.io/v1alpha1
+kind: System
+metadata:
+  name: partner-agreement-creation-system
+  title: Partner Agreement Creation
+  description: Partner Agreement Creation function provide the functionality to automate the creation of an agreement based on templates or from scratch. The function allows to create and maintain predefined agreement options and templates with terms and conditions (e.g. pricing information, payment clauses, legal texts, etc.) for different purposes and services. 
+  annotations:
+    kode3.tech/tmforum-color: ''
+  tags:
+    - 'tmforum'
+spec:
+  owner: business-partner-group
+  partOf: business-partner-agreement-management-system
+  domain: business-partner-domain
+

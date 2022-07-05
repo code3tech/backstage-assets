@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: System
+metadata:
+  name: partner-agreement-tracking-system
+  title: Partner Agreement Tracking
+  description: Partner Agreement Tracking function keeps the association of the partner product offerings with the agreements and tracks anomalies for single products or group of products of the partner. 
+  annotations:
+    kode3.tech/tmforum-color: ''
+  tags:
+    - 'tmforum'
+spec:
+  owner: business-partner-group
+  partOf: business-partner-agreement-management-system
+  domain: business-partner-domain

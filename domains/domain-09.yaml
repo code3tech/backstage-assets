@@ -1,0 +1,20 @@
+apiVersion: backstage.io/v1alpha1
+kind: Domain
+metadata:
+  name: fullfilment-domain
+  title: Fullfilment
+  description: Fullfilment
+  annotations:
+    kode3.tech/tmforum-color: 159 255 159
+  tags:
+    - 'tmforum'
+spec:
+  owner: digitais
+relations:
+  - type: partOf
+    #targetRef: domain:default/operation-domain
+    target:
+      kind: domain
+      namespace: default
+      name: operation-domain
+

@@ -1,0 +1,15 @@
+apiVersion: backstage.io/v1alpha1
+kind: System
+metadata:
+  name: channel-sale-mngt-sys
+  title: Channel Sale Management
+  description: Channel Sale Management
+  annotations:
+    kode3.tech/tmforum-color: ''
+  tags:
+    - 'tmforum'
+    - 'function'
+
+spec:
+  owner: integration-group
+  domain: market-sales-domain

@@ -1,0 +1,15 @@
+apiVersion: backstage.io/v1alpha1
+kind: System
+metadata:
+  name: partner-agreement-implementation-system
+  title: Partner Agreement Implementation
+  description: Agreement Implementation function provides support for the implementation of the agreement’s terms and conditions to be used by related organizations during operations.
+  annotations:
+    kode3.tech/tmforum-color: ''
+  tags:
+    - 'tmforum'
+spec:
+  owner: business-partner-group
+  partOf: business-partner-agreement-management-system
+  domain: business-partner-domain
+

@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Domain
+metadata:
+  name: business-partner-domain
+  title: Business Partner
+  description: Business Partner
+  annotations:
+    kode3.tech/tmforum-color: '0 178 239'
+  tags:
+    - 'tmforum'
+spec:
+  owner: digitais

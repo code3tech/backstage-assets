@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: frete
+  description: The boxoffice sub-department
+spec:
+  type: sub-department
+  profile:
+    displayName: Frete
+    email: frete@example.com
+    # Intentional no picture for testing
+  parent: contextos
+  # children: [team-c, team-d]
+  children: [ ]

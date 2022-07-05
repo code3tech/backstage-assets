@@ -1,0 +1,22 @@
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+metadata:
+  name: artists-db
+  description: Stores artist details
+  tags:
+    - angular
+    - typescript
+    - html5
+    - css3
+    - kode3
+  teste: yyyy
+  annotations:
+    backstage.io/techdocs-ref: value
+    jenkins.io/job-full-name: folder-name/job-name
+    backstage.io/code-coverage: scm-only
+spec:
+  type: database
+  owner: team-a
+  system: artist-engagement-portal
+  lifecycle: wait aprove
+  teste: xxx

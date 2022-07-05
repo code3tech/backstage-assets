@@ -1,0 +1,20 @@
+apiVersion: backstage.io/v1alpha1
+kind: Domain
+metadata:
+  name: strategy-readiness-domain
+  title: Strategy to Readiness
+  description: Strategy to Readiness
+  annotations:
+    kode3.tech/tmforum-color: 153 204 255
+  tags:
+    - 'tmforum'
+spec:
+  owner: digitais
+relations:
+  - type: partOf
+    #targetRef: domain:default/common-domain
+    target:
+      kind: domain
+      namespace: default
+      name: common-domain
+

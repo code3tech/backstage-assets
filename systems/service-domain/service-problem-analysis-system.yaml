@@ -1,0 +1,15 @@
+apiVersion: backstage.io/v1alpha1
+kind: System
+metadata:
+  name: svc-problem-analysis-sys
+  title: Service Problem Analysis
+  description: Service Problem Analysis
+  annotations:
+    kode3.tech/tmforum-color: ''
+  tags:
+    - 'tmforum'
+    - 'function'
+
+spec:
+  owner: integration-group
+  domain: service-domain

@@ -1,0 +1,20 @@
+apiVersion: backstage.io/v1alpha1
+kind: Domain
+metadata:
+  name: operation-readiness-and-suport-domain
+  title: Operations Readiness & Suport
+  description: Operations Readiness & Suport
+  annotations:
+    kode3.tech/tmforum-color: 255 255 128
+  tags:
+    - 'tmforum'
+spec:
+  owner: digitais
+relations:
+  - type: partOf
+    #targetRef: domain:default/operation-domain
+    target:
+      kind: domain
+      namespace: default
+      name: operation-domain
+

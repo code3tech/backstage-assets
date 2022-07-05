@@ -1,0 +1,15 @@
+apiVersion: backstage.io/v1alpha1
+kind: Location
+metadata:
+  name: example-components
+  description: A collection of all Backstage example components
+spec:
+  targets:
+    - ./components/status/deprecated-component.yaml
+    - ./components/status/designed-component.yaml
+    - ./components/status/development-component.yaml
+    - ./components/status/draft-component.yaml
+    - ./components/status/production-component.yaml
+    - ./components/status/retired-component.yaml
+    - ./components/status/testing-component.yaml
+    - ./components/status/deprecated-component.yaml

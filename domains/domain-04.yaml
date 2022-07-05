@@ -1,0 +1,20 @@
+apiVersion: backstage.io/v1alpha1
+kind: Domain
+metadata:
+  name: strategy-management-domain
+  title: Strategy Management
+  description: Strategy Management
+  annotations:
+    kode3.tech/tmforum-color: 204 204 255
+  tags:
+    - 'tmforum'
+spec:
+  owner: digitais
+relations:
+  - type: partOf
+    #targetRef: domain:default/strategy-readiness-domain
+    target:
+      kind: domain
+      namespace: default
+      name: strategy-readiness-domain
+

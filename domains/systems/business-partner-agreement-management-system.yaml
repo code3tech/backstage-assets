@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: System
+metadata:
+  name: business-partner-agreement-management-system
+  title: Business Partner Agreement Management
+  description: Business Partner Agreement Management
+  annotations:
+    kode3.tech/tmforum-color: ''
+  tags:
+    - 'tmforum'
+spec:
+  owner: business-partner-group
+  partOf: business-partner-management-system
+  domain: business-partner-domain

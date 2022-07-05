@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: System
+metadata:
+  name: contract-management-system
+  title: Contract Management
+  description: Contract Management, including establishment, modification, and termination
+  annotations:
+    kode3.tech/tmforum-color: ''
+  tags:
+    - 'tmforum'
+spec:
+  owner: digitais
+  partOf: business-partner-agreement-management-system
+

@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Domain
+metadata:
+  name: enterprise-management-domain
+  title: Enterprise Management
+  description: Enterprise Management
+  annotations:
+    kode3.tech/tmforum-color: '201 201 201'
+  tags:
+    - 'tmforum'
+spec:
+  owner: digitais

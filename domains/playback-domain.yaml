@@ -1,0 +1,732 @@
+#apiVersion: backstage.io/v1alpha1
+#kind: Domain
+#metadata:
+#  name: functional-domain
+#  title: Functional TMForum
+#  description: Functional TMForum
+#  annotations:
+#    kode3.tech/tmforum-color: 255 255 255
+#  tags:
+#    - 'tmforum'
+#spec:
+#  owner: digitais
+#
+#
+#apiVersion: backstage.io/v1alpha1
+#kind: Domain
+#metadata:
+#  name: common-domain
+#  title: Common
+#  description: Common
+#  annotations:
+#    kode3.tech/tmforum-color: 255 153 204
+#  tags:
+#    - 'tmforum'
+#spec:
+#  owner: digitais
+#relations:
+#  - type: partOf
+#    #targetRef: domain:default/functional-domain
+#    target:
+#      kind: domain
+#      namespace: default
+#      name: functional-domain
+#
+#apiVersion: backstage.io/v1alpha1
+#kind: Domain
+#metadata:
+#  name: strategy-readiness-domain
+#  title: Strategy to Readiness
+#  description: Strategy to Readiness
+#  annotations:
+#    kode3.tech/tmforum-color: 153 204 255
+#  tags:
+#    - 'tmforum'
+#spec:
+#  owner: digitais
+#relations:
+#  - type: partOf
+#    #targetRef: domain:default/common-domain
+#    target:
+#      kind: domain
+#      namespace: default
+#      name: common-domain
+#
+#apiVersion: backstage.io/v1alpha1
+#kind: Domain
+#metadata:
+#  name: strategy-management-domain
+#  title: Strategy Management
+#  description: Strategy Management
+#  annotations:
+#    kode3.tech/tmforum-color: 204 204 255
+#  tags:
+#    - 'tmforum'
+#spec:
+#  owner: digitais
+#relations:
+#  - type: partOf
+#    #targetRef: domain:default/strategy-readiness-domain
+#    target:
+#      kind: domain
+#      namespace: default
+#      name: strategy-readiness-domain
+#
+#apiVersion: backstage.io/v1alpha1
+#kind: Domain
+#metadata:
+#  name: capability-delivrey-domain
+#  title: Capability Delivery
+#  description: Capability Delivery
+#  annotations:
+#    kode3.tech/tmforum-color: 102 204 255
+#  tags:
+#    - 'tmforum'
+#spec:
+#  owner: digitais
+#relations:
+#  - type: partOf
+#    #targetRef: domain:default/strategy-readiness-domain
+#    target:
+#      kind: domain
+#      namespace: default
+#      name: strategy-readiness-domain
+#
+#apiVersion: backstage.io/v1alpha1
+#kind: Domain
+#metadata:
+#  name: lifecycle-management-domain
+#  title: Lifecycle Management
+#  description: Lifecycle Management
+#  annotations:
+#    kode3.tech/tmforum-color: 253 206 66
+#  tags:
+#    - 'tmforum'
+#spec:
+#  owner: digitais
+#relations:
+#  - type: partOf
+#    #targetRef: domain:default/strategy-readiness-domain
+#    target:
+#      kind: domain
+#      namespace: default
+#      name: strategy-readiness-domain
+#
+#apiVersion: backstage.io/v1alpha1
+#kind: Domain
+#metadata:
+#  name: operation-domain
+#  title: Operation
+#  description: Operation
+#  annotations:
+#    kode3.tech/tmforum-color: 255 206 255
+#  tags:
+#    - 'tmforum'
+#spec:
+#  owner: digitais
+#relations:
+#  - type: partOf
+#    #targetRef: domain:default/functional-domain
+#    target:
+#      kind: domain
+#      namespace: default
+#      name: functional-domain
+#
+#apiVersion: backstage.io/v1alpha1
+#kind: Domain
+#metadata:
+#  name: operation-readiness-and-suport-domain
+#  title: Operations Readiness & Suport
+#  description: Operations Readiness & Suport
+#  annotations:
+#    kode3.tech/tmforum-color: 255 255 128
+#  tags:
+#    - 'tmforum'
+#spec:
+#  owner: digitais
+#relations:
+#  - type: partOf
+#    #targetRef: domain:default/operation-domain
+#    target:
+#      kind: domain
+#      namespace: default
+#      name: operation-domain
+#
+#apiVersion: backstage.io/v1alpha1
+#kind: Domain
+#metadata:
+#  name: fullfilment-domain
+#  title: Fullfilment
+#  description: Fullfilment
+#  annotations:
+#    kode3.tech/tmforum-color: 159 255 159
+#  tags:
+#    - 'tmforum'
+#spec:
+#  owner: digitais
+#relations:
+#  - type: partOf
+#    #targetRef: domain:default/operation-domain
+#    target:
+#      kind: domain
+#      namespace: default
+#      name: operation-domain
+#
+#apiVersion: backstage.io/v1alpha1
+#kind: Domain
+#metadata:
+#  name: assurance-domain
+#  title: Assurance
+#  description: Assurance
+#  annotations:
+#    kode3.tech/tmforum-color: 255 157 255
+#  tags:
+#    - 'tmforum'
+#spec:
+#  owner: digitais
+#relations:
+#  - type: partOf
+#    #targetRef: domain:default/operation-domain
+#    target:
+#      kind: domain
+#      namespace: default
+#      name: operation-domain
+#
+#apiVersion: backstage.io/v1alpha1
+#kind: Domain
+#metadata:
+#  name: billing-and-revenue-domain
+#  title: Billing & Revenue Management
+#  description: Billing & Revenue Management
+#  annotations:
+#    kode3.tech/tmforum-color: 121 217 213
+#  tags:
+#    - 'tmforum'
+#spec:
+#  owner: digitais
+#relations:
+#  - type: partOf
+#    #targetRef: domain:default/operation-domain
+#    target:
+#      kind: domain
+#      namespace: default
+#      name: operation-domain
+#
+#apiVersion: backstage.io/v1alpha1
+#kind: Domain
+#metadata:
+#  name: enterprise-management-domain
+#  title: Enterprise Management
+#  description: Enterprise Management
+#  annotations:
+#    kode3.tech/tmforum-color: 201 201 201
+#  tags:
+#    - 'tmforum'
+#spec:
+#  owner: digitais
+#relations:
+#  - type: partOf
+#    #targetRef: domain:default/functional-domain
+#    target:
+#      kind: domain
+#      namespace: default
+#      name: functional-domain
+#
+#apiVersion: backstage.io/v1alpha1
+#kind: Domain
+#metadata:
+#  name: cross-domain
+#  title: Cross
+#  description: Cross
+#  annotations:
+#    kode3.tech/tmforum-color: 233 233 233
+#  tags:
+#    - 'tmforum'
+#spec:
+#  owner: digitais
+#relations:
+#  - type: partOf
+#    #targetRef: domain:default/functional-domain
+#    target:
+#      kind: domain
+#      namespace: default
+#      name: functional-domain
+#
+#apiVersion: backstage.io/v1alpha1
+#kind: Domain
+#metadata:
+#  name: market-sales-domain
+#  title: Market Sales
+#  description: Market Sales
+#  annotations:
+#    kode3.tech/tmforum-color: 253 159 154
+#  tags:
+#    - 'tmforum'
+#spec:
+#  owner: digitais
+#relations:
+#  - type: partOf
+#    target:
+#      kind: domain
+#      namespace: default
+#      name: operation-readiness-and-suport-domain
+#  - type: partOf
+#    target:
+#      kind: domain
+#      namespace: default
+#      name: fullfilment-domain
+#  - type: partOf
+#    target:
+#      kind: domain
+#      namespace: default
+#      name: assurance-domain
+#  - type: partOf
+#    target:
+#      kind: domain
+#      namespace: default
+#      name: billing-and-revenue-domain
+#  - type: partOf
+#    target:
+#      kind: domain
+#      namespace: default
+#      name: strategy-management-domain
+#  - type: partOf
+#    target:
+#      kind: domain
+#      namespace: default
+#      name: capability-delivrey-domain
+#  - type: partOf
+#    target:
+#      kind: domain
+#      namespace: default
+#      name: lifecycle-management-domain
+#
+#apiVersion: backstage.io/v1alpha1
+#kind: Domain
+#metadata:
+#  name: product-domain
+#  title: Product
+#  description: Product
+#  annotations:
+#    kode3.tech/tmforum-color: 253 253 121
+#  tags:
+#    - 'tmforum'
+#spec:
+#  owner: digitais
+#relations:
+#  - type: partOf
+#    target:
+#      kind: domain
+#      namespace: default
+#      name: operation-readiness-and-suport-domain
+#  - type: partOf
+#    target:
+#      kind: domain
+#      namespace: default
+#      name: fullfilment-domain
+#  - type: partOf
+#    target:
+#      kind: domain
+#      namespace: default
+#      name: assurance-domain
+#  - type: partOf
+#    target:
+#      kind: domain
+#      namespace: default
+#      name: billing-and-revenue-domain
+#  - type: partOf
+#    target:
+#      kind: domain
+#      namespace: default
+#      name: strategy-management-domain
+#  - type: partOf
+#    target:
+#      kind: domain
+#      namespace: default
+#      name: capability-delivrey-domain
+#  - type: partOf
+#    target:
+#      kind: domain
+#      namespace: default
+#      name: lifecycle-management-domain
+#
+#
+#apiVersion: backstage.io/v1alpha1
+#kind: Domain
+#metadata:
+#  name: customer-domain
+#  title: Customer
+#  description: Customer
+#  annotations:
+#    kode3.tech/tmforum-color: 251 204 95
+#  tags:
+#    - 'tmforum'
+#spec:
+#  owner: digitais
+#relations:
+#  - type: partOf
+#    target:
+#      kind: domain
+#      namespace: default
+#      name: operation-readiness-and-suport-domain
+#  - type: partOf
+#    target:
+#      kind: domain
+#      namespace: default
+#      name: fullfilment-domain
+#  - type: partOf
+#    target:
+#      kind: domain
+#      namespace: default
+#      name: assurance-domain
+#  - type: partOf
+#    target:
+#      kind: domain
+#      namespace: default
+#      name: billing-and-revenue-domain
+#  - type: partOf
+#    target:
+#      kind: domain
+#      namespace: default
+#      name: strategy-management-domain
+#  - type: partOf
+#    target:
+#      kind: domain
+#      namespace: default
+#      name: capability-delivrey-domain
+#  - type: partOf
+#    target:
+#      kind: domain
+#      namespace: default
+#      name: lifecycle-management-domain
+#
+#
+#apiVersion: backstage.io/v1alpha1
+#kind: Domain
+#metadata:
+#  name: service-domain
+#  title: Service
+#  description: Service
+#  annotations:
+#    kode3.tech/tmforum-color: 92 235 72
+#  tags:
+#    - 'tmforum'
+#spec:
+#  owner: digitais
+#relations:
+#  - type: partOf
+#    target:
+#      kind: domain
+#      namespace: default
+#      name: operation-readiness-and-suport-domain
+#  - type: partOf
+#    target:
+#      kind: domain
+#      namespace: default
+#      name: fullfilment-domain
+#  - type: partOf
+#    target:
+#      kind: domain
+#      namespace: default
+#      name: assurance-domain
+#  - type: partOf
+#    target:
+#      kind: domain
+#      namespace: default
+#      name: billing-and-revenue-domain
+#  - type: partOf
+#    target:
+#      kind: domain
+#      namespace: default
+#      name: strategy-management-domain
+#  - type: partOf
+#    target:
+#      kind: domain
+#      namespace: default
+#      name: capability-delivrey-domain
+#  - type: partOf
+#    target:
+#      kind: domain
+#      namespace: default
+#      name: lifecycle-management-domain
+#
+#
+#apiVersion: backstage.io/v1alpha1
+#kind: Domain
+#metadata:
+#  name: resource-domain
+#  title: Resource
+#  description: Resource
+#  annotations:
+#    kode3.tech/tmforum-color: 190 253 254
+#  tags:
+#    - 'tmforum'
+#spec:
+#  owner: digitais
+#relations:
+#  - type: partOf
+#    target:
+#      kind: domain
+#      namespace: default
+#      name: operation-readiness-and-suport-domain
+#  - type: partOf
+#    target:
+#      kind: domain
+#      namespace: default
+#      name: fullfilment-domain
+#  - type: partOf
+#    target:
+#      kind: domain
+#      namespace: default
+#      name: assurance-domain
+#  - type: partOf
+#    target:
+#      kind: domain
+#      namespace: default
+#      name: billing-and-revenue-domain
+#  - type: partOf
+#    target:
+#      kind: domain
+#      namespace: default
+#      name: strategy-management-domain
+#  - type: partOf
+#    target:
+#      kind: domain
+#      namespace: default
+#      name: capability-delivrey-domain
+#  - type: partOf
+#    target:
+#      kind: domain
+#      namespace: default
+#      name: lifecycle-management-domain
+#
+#
+#apiVersion: backstage.io/v1alpha1
+#kind: Domain
+#metadata:
+#  name: business-partner-domain
+#  title: Business Partner
+#  description: Business Partner
+#  annotations:
+#    kode3.tech/tmforum-color: 0 178 239
+#  tags:
+#    - 'tmforum'
+#spec:
+#  owner: digitais
+#relations:
+#  - type: partOf
+#    target:
+#      kind: domain
+#      namespace: default
+#      name: operation-readiness-and-suport-domain
+#  - type: partOf
+#    target:
+#      kind: domain
+#      namespace: default
+#      name: fullfilment-domain
+#  - type: partOf
+#    target:
+#      kind: domain
+#      namespace: default
+#      name: assurance-domain
+#  - type: partOf
+#    target:
+#      kind: domain
+#      namespace: default
+#      name: billing-and-revenue-domain
+#  - type: partOf
+#    target:
+#      kind: domain
+#      namespace: default
+#      name: strategy-management-domain
+#  - type: partOf
+#    target:
+#      kind: domain
+#      namespace: default
+#      name: capability-delivrey-domain
+#  - type: partOf
+#    target:
+#      kind: domain
+#      namespace: default
+#      name: lifecycle-management-domain
+#
+#
+#apiVersion: backstage.io/v1alpha1
+#kind: Domain
+#metadata:
+#  name: business-partner-management-domain
+#  title: Business Partner Management
+#  description: Business Partner Management
+#  annotations:
+#    kode3.tech/tmforum-color:
+#  tags:
+#    - 'tmforum'
+#spec:
+#  owner: digitais
+#relations:
+#  - type: partOf
+#    #targetRef: domain:default/business-partner-domain
+#    target:
+#      kind: domain
+#      namespace: default
+#      name: business-partner-domain
+#
+#apiVersion: backstage.io/v1alpha1
+#kind: Domain
+#metadata:
+#  name: business-partner-inventory-management-domain
+#  title: Business Partner Inventory Management
+#  description: Business Partner Inventory Management
+#  annotations:
+#    kode3.tech/tmforum-color:
+#  tags:
+#    - 'tmforum'
+#spec:
+#  owner: digitais
+#relations:
+#  - type: partOf
+#    #targetRef: domain:default/business-partner-management-domain
+#    target:
+#      kind: domain
+#      namespace: default
+#      name: business-partner-management-domain
+#
+#apiVersion: backstage.io/v1alpha1
+#kind: Domain
+#metadata:
+#  name: business-partner-agreement-management-domain
+#  title: Business Partner Agreement Management
+#  description: Business Partner Agreement Management
+#  annotations:
+#    kode3.tech/tmforum-color:
+#  tags:
+#    - 'tmforum'
+#spec:
+#  owner: digitais
+#relations:
+#  - type: partOf
+#    #targetRef: domain:default/business-partner-management-domain
+#    target:
+#      kind: domain
+#      namespace: default
+#      name: business-partner-management-domain
+#
+#apiVersion: backstage.io/v1alpha1
+#kind: Domain
+#metadata:
+#  name: business-partner-support-and-readiness-domain
+#  title: Business Partner Support and Readiness
+#  description: Business Partner Support and Readiness
+#  annotations:
+#    kode3.tech/tmforum-color:
+#  tags:
+#    - 'tmforum'
+#spec:
+#  owner: digitais
+#relations:
+#  - type: partOf
+#    #targetRef: domain:default/business-partner-management-domain
+#    target:
+#      kind: domain
+#      namespace: default
+#      name: business-partner-management-domain
+#
+#apiVersion: backstage.io/v1alpha1
+#kind: Domain
+#metadata:
+#  name: contract-management-domain
+#  title: Contract Management
+#  description: Contract Management, including establishment, modification, and termination
+#  annotations:
+#    kode3.tech/tmforum-color:
+#  tags:
+#    - 'tmforum'
+#spec:
+#  owner: digitais
+#relations:
+#  - type: partOf
+#    #targetRef: domain:default/business-partner-agreement-management-domain
+#    target:
+#      kind: domain
+#      namespace: default
+#      name: business-partner-agreement-management-domain
+#
+#apiVersion: backstage.io/v1alpha1
+#kind: Domain
+#metadata:
+#  name: partner-agreement-creation-domain
+#  title: Partner Agreement Creation
+#  description: Partner Agreement Creation function provide the functionality to automate the creation of an agreement based on templates or from scratch. The function allows to create and maintain predefined agreement options and templates with terms and conditions (e.g. pricing information, payment clauses, legal texts, etc.) for different purposes and services.
+#  annotations:
+#    kode3.tech/tmforum-color:
+#  tags:
+#    - 'tmforum'
+#spec:
+#  owner: digitais
+#relations:
+#  - type: partOf
+#    #targetRef: domain:default/business-partner-agreement-management-domain
+#    target:
+#      kind: domain
+#      namespace: default
+#      name: business-partner-agreement-management-domain
+#
+#apiVersion: backstage.io/v1alpha1
+#kind: Domain
+#metadata:
+#  name: partner-agreement-storage-and-searching-domain
+#  title: Partner Agreement Storage and Searching
+#  description: Partner Agreement Storage and Searching function provide the ability to view Partner's existing agreements, search for partner agreements based on meta-data and to search text strings within agreements. The data can also be mined for partner strategy, negotiation, workflow and interaction purposes.
+#  annotations:
+#    kode3.tech/tmforum-color:
+#  tags:
+#    - 'tmforum'
+#spec:
+#  owner: digitais
+#relations:
+#  - type: partOf
+#    #targetRef: domain:default/business-partner-agreement-management-domain
+#    target:
+#      kind: domain
+#      namespace: default
+#      name: business-partner-agreement-management-domain
+#
+#apiVersion: backstage.io/v1alpha1
+#kind: Domain
+#metadata:
+#  name: partner-agreement-implementation-domain
+#  title: Partner Agreement Implementation
+#  description: Agreement Implementation function provides support for the implementation of the agreement’s terms and conditions to be used by related organizations during operations.
+#  annotations:
+#    kode3.tech/tmforum-color:
+#  tags:
+#    - 'tmforum'
+#spec:
+#  owner: digitais
+#relations:
+#  - type: partOf
+#    #targetRef: domain:default/business-partner-agreement-management-domain
+#    target:
+#      kind: domain
+#      namespace: default
+#      name: business-partner-agreement-management-domain
+#
+#apiVersion: backstage.io/v1alpha1
+#kind: Domain
+#metadata:
+#  name: partner-agreement-tracking-domain
+#  title: Partner Agreement Tracking
+#  description: Partner Agreement Tracking function keeps the association of the partner product offerings with the agreements and tracks anomalies for single products or group of products of the partner.
+#  annotations:
+#    kode3.tech/tmforum-color:
+#  tags:
+#    - 'tmforum'
+#spec:
+#  owner: digitais
+#relations:
+#  - type: partOf
+#    #targetRef: domain:default/business-partner-agreement-management-domain
+#    target:
+#      kind: domain
+#      namespace: default
+#      name: business-partner-agreement-management-domain

@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: pdv
+  description: The boxoffice sub-department
+spec:
+  type: sub-department
+  profile:
+    displayName: PDV
+    email: pdv@example.com
+    # Intentional no picture for testing
+  parent: fisicos
+  # children: [team-c, team-d]
+  children: [ ]

@@ -1,0 +1,98 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: assinatura-bff-v2
+  description: Assinatura App BFF
+  tags:
+    - java
+spec:
+  type: service
+  lifecycle: testing
+  owner: integration-group
+  system: svc-order-mngt-sys
+  version: 2.0.0-rc9
+  providesApis:
+    - assinaturas-bff-v2-api
+  consumesApis:
+    - assinaturas-api-v3-api
+
+
+---
+
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: assinaturas-bff-v2-api
+  description: Detalhes de planos
+spec:
+  type: openapi
+  lifecycle: designed
+  version: v2
+  owner: "integration-group"
+  definition: |
+    openapi: 3.0.2
+    info:
+        title: Vivo Planos API
+        version: 1.0.0
+        description: A brand new API with no content.  Go nuts!
+    paths:
+        /planos:
+            summary: Path used to manage the list of planos.
+            description: >-
+                The REST endpoint/path used to list and create zero or more `plano` entities.  This path contains
+                a `GET` and `POST` operation to perform the list and create tasks, respectively.
+            get:
+                parameters:
+                    -
+                        name: ddd
+                        description: DDD da área para listar os planos
+                        schema:
+                            type: string
+                        in: query
+                        required: true
+                responses:
+                    '200':
+                        content:
+                            application/json:
+                                schema:
+                                    type: array
+                                    items:
+                                        $ref: '#/components/schemas/plano'
+                                examples:
+                                    200-Sucesso:
+                                        value:
+                                            -
+                                                codigo: vivo_ctrl_cartao_6_5gb_49
+                                                nome: 'VIVO CTRL CARTAO - 6,5GB'
+                                                valor: 54.99
+                                                example: '6,5GB'
+                                            -
+                                                codigo: vivo_ctrl_cartao_13gb_49
+                                                nome: VIVO CTRL CARTAO - 13GB
+                                                valor: 74.99
+                                                example: 13GB
+                        description: Successful response - returns an array of `plano` entities.
+                operationId: getplanos
+                summary: Lista todos os planos por DDD
+                description: Gets a list of all `plano` entities.
+    components:
+        schemas:
+            plano:
+                title: Root Type for plano
+                description: ''
+                type: object
+                properties:
+                    codigo:
+                        type: string
+                    nome:
+                        type: string
+                    valor:
+                        format: double
+                        type: number
+                    example:
+                        type: string
+                example:
+                    codigo: vivo_ctrl_cartao_6_5gb_49
+                    nome: 'VIVO CTRL CARTAO - 6,5GB'
+                    valor: 54.99
+                    example: '6,5GB'

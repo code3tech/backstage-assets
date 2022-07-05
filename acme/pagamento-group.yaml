@@ -1,0 +1,13 @@
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: pagamento
+  description: The boxoffice sub-department
+spec:
+  type: sub-department
+  profile:
+    displayName: Pagamento
+    email: pagamento@example.com
+    # Intentional no picture for testing
+  parent: contextos
+  children: [team-a, team-b]

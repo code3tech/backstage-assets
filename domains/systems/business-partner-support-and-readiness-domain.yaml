@@ -1,0 +1,15 @@
+apiVersion: backstage.io/v1alpha1
+kind: System
+metadata:
+  name: business-partner-support-and-readiness-domain
+  title: Business Partner Support and Readiness
+  description: Business Partner Support and Readiness
+  annotations:
+    kode3.tech/tmforum-color: ''
+  tags:
+    - 'tmforum'
+spec:
+  owner: business-partner-group
+  partOf: business-partner-management-system
+  domain: business-partner-domain
+  #domain: business-partner-domain

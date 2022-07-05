@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Domain
+metadata:
+  name: resource-domain
+  title: Resource
+  description: Resource
+  annotations:
+    kode3.tech/tmforum-color: '190 253 254'
+  tags:
+    - 'tmforum'
+spec:
+  owner: digitais

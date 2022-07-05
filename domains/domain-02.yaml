@@ -1,0 +1,20 @@
+apiVersion: backstage.io/v1alpha1
+kind: Domain
+metadata:
+  name: common-domain
+  title: Common
+  description: Common
+  annotations:
+    kode3.tech/tmforum-color: 255 153 204
+  tags:
+    - 'tmforum'
+spec:
+  owner: digitais
+relations:
+  - type: partOf
+    #targetRef: domain:default/functional-domain
+    target:
+      kind: domain
+      namespace: default
+      name: functional-domain
+

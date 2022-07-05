@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: System
+metadata:
+  name: business-partner-inventory-management-system
+  title: Business Partner Inventory Management
+  description: Business Partner Inventory Management
+  annotations:
+    kode3.tech/tmforum-color: ''
+  tags:
+    - 'tmforum'
+spec:
+  owner: business-partner-group
+  partOf: business-partner-management-system
+  domain: business-partner-domain
