@@ -1,0 +1,127 @@
+apiVersion: scaffolder.backstage.io/v1beta3
+kind: Template
+metadata:
+  name: k3t-infra-template
+  title: Recurso Infraestrutural
+  description: Cria recursos infraestruturais como ALB, ELB, NLB, Ngnix, etc.
+  tags:
+    - resource
+    - infra
+    - kode3
+spec:
+  owner: service@example.com
+  type: service
+
+  parameters:
+    - title: Informações do recurso de infra
+      required:
+        - component_id
+        - owner
+      properties:
+        component_id:
+          title: Nome
+          type: string
+          description: Nome único do componente
+          ui:field: EntityNamePicker
+
+        description:
+          title: Descrição
+          type: string
+          description: Ajuda outras pessoas a entender para que serve este recurso.
+
+        owner:
+          title: Time responsável
+          type: string
+          description: Time responsável pelo recurso
+          ui:field: OwnerPicker
+          ui:options:
+            allowedKinds:
+              - Group
+
+    - title: Detalhes do recurso
+      required:
+        - type
+        - stack
+      properties:
+        type:
+          title: Tipo
+          type: string
+          description: Tipo do recurso a ser provisionado
+        stack:
+          title: Stack
+          type: string
+          description: Stack do recurso a ser provisionado
+
+    - title: Relacionamento
+      properties:
+        system:
+          title: Sistema associado
+          type: string
+          description: Sistema ao qual o recurso pertence
+          ui:field: EntityPicker
+          ui:options:
+            allowedKinds:
+              - System
+
+        dependsOn:
+          title: Dependências
+          type: string
+          description: Recursos ou componentes ao quais esse recurso depende
+          ui:field: EntityPicker
+          ui:options:
+            allowedKinds:
+              - System
+              - Component
+
+        dependencyOf:
+          title: Consumidores
+          type: string
+          description: Recursos ou componentes que dependem deste recurso
+          ui:field: EntityPicker
+          ui:options:
+            allowedKinds:
+              - System
+              - Component
+  steps:
+    - id: template
+      name: Fetch Skeleton + Template
+      action: fetch:template
+      input:
+        url: https://github.com/code3tech/backstage-assets/blob/main/templates/local-resource/k3t-infra-resource/skeleton
+        values:
+          component_id: ${{ parameters.component_id }}
+          description: ${{ parameters.description }}
+          artifact_id: ${{ parameters.component_id }}
+          java_package_name: ${{ parameters.java_package_name }}
+          owner: ${{ parameters.owner }}
+          destination: ${{ parameters.repoUrl | parseRepoUrl }}
+          http_port: 8080
+          type: ${{ parameters.type }}
+          stack: ${{ parameters.stack }}
+          system: ${{ parameters.system }}
+          dependsOn: ${{ parameters.dependsOn }}
+          dependencyOf: ${{ parameters.dependencyOf }}
+
+    #     - id: publish
+    - id: publish
+      name: Publish
+      action: publish:gitlab
+      input:
+        allowedHosts: ["gitlab.com"]
+        description: Thi/template.yamls is ${{ parameters.component_id }}
+        repoUrl: "gitlab.com?owner=vvtlfnc&repo=${{ parameters.component_id }}"
+
+    - id: register
+      name: Register
+      action: catalog:register
+      input:
+        repoContentsUrl: ${{ steps.publish.output.repoContentsUrl }}
+        catalogInfoPath: "/catalog-info.yaml"
+
+  output:
+    links:
+      - title: Repository
+        url: ${{ steps.publish.output.remoteUrl }}
+      - title: Open in catalog
+        icon: catalog
+        entityRef: ${{ steps.register.output.entityRef }}

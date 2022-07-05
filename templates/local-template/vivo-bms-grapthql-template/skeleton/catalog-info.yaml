@@ -1,0 +1,92 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: ${{values.component_id | dump}}
+  {%- if values.description %}
+  description: ${{values.description | dump}}
+  {%- endif %}
+  links:
+    - url: https://example.com/user
+      title: Usuários
+      icon: user
+
+    - url: https://example.com/group
+      title: Grupo Slack
+      icon: group
+
+    - url: https://example.com/cloud
+      title: Rancher/GCP/AWS/AKS
+      icon: cloud
+
+    - url: https://example.com/dashboard
+      title: Dashboard (Skywalking)
+      icon: dashboard
+
+    - url: https://example.com/help
+      title: Jira
+      icon: help
+
+    - url: https://example.com/web
+      title: Website
+      icon: web
+
+    - url: https://example.com/alert
+      title: Alertas (Skywalking)
+      icon: alert
+
+    - url: https://example.com/alert
+      title: Logs (Skywalking)
+      icon: alert
+
+    - url: https://example.com/alert
+      title: Trace (Skywalking)
+      icon: alert
+  tags:
+    - java
+    - spring
+    - bms
+    - rest
+  annotations:
+    tech.kode3/stack: spring
+    {%- if values.role %}
+    tech.kode3/role: ${{values.role | dump}}
+    {%- endif %}
+    jenkins.io/job-full-name:  '${{"vvtlfnc/" + values.component_id}}'
+    jenkins.io/github-folder:  '${{"vvtlfnc/" + values.component_id}}'
+    gitlab.com/project-slug: '${{"vvtlfnc/" + values.component_id}}'
+    #gitlab.com/project-id: 'project-id'
+    backstage.io/techdocs-ref: dir:.
+spec:
+  type: service
+  version: v1.0.0
+  lifecycle: development
+  owner: ${{values.owner | dump}}
+  {%- if values.system %}
+  system: ${{values.system | replace("system:", "") | dump}}
+  {%- endif %}
+  providesApis:
+    - ${{values.component_id}}-graphql
+
+---
+
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: ${{ values.component_id}}-graphql
+  description: ${{values.description | dump}}
+  tags:
+    - java
+    - spring
+    - bms
+    - grapthql
+    - sync
+spec:
+  type: graphql
+  lifecycle: development
+  version: v1
+  owner: ${{values.owner | dump}}
+  {%- if values.system %}
+  system: ${{ values.system | replace("system:", "") | dump}}
+  {%- endif %}
+  definition: |
+${{ values.oas | indent(8, true)}}

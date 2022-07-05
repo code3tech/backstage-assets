@@ -1,0 +1,67 @@
+apiVersion: backstage.io/v1alpha1
+kind: Location
+metadata:
+  name: example-templates-remote
+  description: A collection of remotely available Backstage example templates
+spec:
+  type: url
+  targets:
+    - https://github.com/backstage/software-templates/blob/main/scaffolder-templates/create-react-app/template.yaml
+    - https://github.com/backstage/software-templates/blob/main/scaffolder-templates/docs-template/template.yaml
+    - https://github.com/backstage/software-templates/blob/main/scaffolder-templates/pull-request/template.yaml
+    - https://github.com/backstage/software-templates/blob/main/scaffolder-templates/react-ssr-template/template.yaml
+    # - https://github.com/backstage/software-templates/blob/main/scaffolder-templates/springboot-grpc-template/template.yaml
+    - https://github.com/ibsonRafael/software-templates/blob/main/scaffolder-templates/springboot-grpc-template/template.yaml
+
+    - https://github.com/ibsonRafael/scaffolder-templates/blob/main/frontend/webcomponent-template/template.yaml
+    - https://github.com/ibsonRafael/scaffolder-templates/blob/main/frontend/angular-lib-template/template.yaml
+    - https://github.com/ibsonRafael/scaffolder-templates/blob/main/frontend/angular-ssr-template/template.yaml
+    - https://github.com/ibsonRafael/scaffolder-templates/blob/main/frontend/angular-spa-template/template.yaml
+    - https://github.com/ibsonRafael/scaffolder-templates/blob/main/frontend/angular-microfrontend-template/template.yaml
+
+    - https://github.com/kode3tech/k3t-csharp-netcore5-mvc/blob/main/template.yaml
+    - https://github.com/kode3tech/k3t-csharp-netcore5-rest/blob/main/template.yaml
+    - https://github.com/kode3tech/k3t-csharp-netcore6-mvc/blob/main/template.yaml
+    - https://github.com/kode3tech/k3t-csharp-netcore6-rest/blob/main/template.yaml
+    - https://github.com/kode3tech/k3t-java-camel-grpc/blob/main/template.yaml
+    - https://github.com/kode3tech/k3t-java-camel-kafka/blob/main/template.yaml
+    - https://github.com/kode3tech/k3t-java-camel-rest/blob/main/template.yaml
+    - https://github.com/kode3tech/k3t-javascript-angular-csr/blob/main/template.yaml
+    - https://github.com/kode3tech/k3t-javascript-angular-mftd/blob/main/template.yaml
+    - https://github.com/kode3tech/k3t-javascript-angular-ssr/blob/main/template.yaml
+    - https://github.com/kode3tech/k3t-javascript-react-csr/blob/main/template.yaml
+    - https://github.com/kode3tech/k3t-javascript-react-mftd/blob/main/template.yaml
+    - https://github.com/kode3tech/k3t-javascript-react-ssr/blob/main/template.yaml
+    - https://github.com/kode3tech/k3t-javascript-vue-csr/blob/main/template.yaml
+    - https://github.com/kode3tech/k3t-javascript-vue-mftd/blob/main/template.yaml
+    - https://github.com/kode3tech/k3t-javascript-vue-ssr/blob/main/template.yaml
+    - https://github.com/kode3tech/k3t-java-spring-grpc/blob/main/template.yaml
+    - https://github.com/kode3tech/k3t-java-spring-kafka/blob/main/template.yaml
+    - https://github.com/kode3tech/k3t-java-spring-rest/blob/main/template.yaml
+    - https://github.com/kode3tech/k3t-nodejs-adonisJs-rest/blob/main/template.yaml
+    - https://github.com/kode3tech/k3t-nodejs-derbyJs-rest/blob/main/template.yaml
+    - https://github.com/kode3tech/k3t-nodejs-expressJs-rest/blob/main/template.yaml
+    - https://github.com/kode3tech/k3t-nodejs-featherJs-rest/blob/main/template.yaml
+    - https://github.com/kode3tech/k3t-nodejs-hapiJs-rest/blob/main/template.yaml
+    - https://github.com/kode3tech/k3t-nodejs-koaJs-rest/blob/main/template.yaml
+    - https://github.com/kode3tech/k3t-nodejs-loopbackJs-rest/blob/main/template.yaml
+    - https://github.com/kode3tech/k3t-nodejs-meteorJs-rest/blob/main/template.yaml
+    - https://github.com/kode3tech/k3t-nodejs-nestJs-rest/blob/main/template.yaml
+    - https://github.com/kode3tech/k3t-nodejs-sailsJs-rest/blob/main/template.yaml
+    - https://github.com/kode3tech/k3t-nodejs-socketio-rest/blob/main/template.yaml
+    - https://github.com/kode3tech/k3t-nodejs-totalJs-rest/blob/main/template.yaml
+    - https://github.com/kode3tech/k3t-php7-laravel-rest/blob/main/template.yaml
+    - https://github.com/kode3tech/k3t-php7-laravel-web/blob/main/template.yaml
+    - https://github.com/kode3tech/k3t-php7-lumen-rest/blob/main/template.yaml
+    - https://github.com/kode3tech/k3t-php8-laravel-rest/blob/main/template.yaml
+    - https://github.com/kode3tech/k3t-php8-laravel-web/blob/main/template.yaml
+    - https://github.com/kode3tech/k3t-php8-lumen-rest/blob/main/template.yaml
+    - https://github.com/kode3tech/k3t-typescript-angular-csr/blob/main/template.yaml
+    - https://github.com/kode3tech/k3t-typescript-angular-mftd/blob/main/template.yaml
+    - https://github.com/kode3tech/k3t-typescript-angular-ssr/blob/main/template.yaml
+    - https://github.com/kode3tech/k3t-typescript-react-csr/blob/main/template.yaml
+    - https://github.com/kode3tech/k3t-typescript-react-mftd/blob/main/template.yaml
+    - https://github.com/kode3tech/k3t-typescript-react-ssr/blob/main/template.yaml
+    - https://github.com/kode3tech/k3t-typescript-vue-csr/blob/main/template.yaml
+    - https://github.com/kode3tech/k3t-typescript-vue-mftd/blob/main/template.yaml
+    - https://github.com/kode3tech/k3t-typescript-vue-ssr/blob/main/template.yaml

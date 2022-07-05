@@ -1,0 +1,56 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: ${{values.component_id | dump}}
+  {%- if values.description %}
+  description: ${{values.description | dump}}
+  {%- endif %}
+  links:
+    - url: https://example.com/user
+      title: Usuários
+      icon: user
+
+    - url: https://example.com/group
+      title: Grupo Slack
+      icon: group
+
+    - url: https://example.com/cloud
+      title: Rancher/GCP/AWS/AKS
+      icon: cloud
+
+    - url: https://example.com/dashboard
+      title: Dashboard (Skywalking)
+      icon: dashboard
+
+    - url: https://example.com/help
+      title: Jira
+      icon: help
+
+    - url: https://example.com/web
+      title: Website
+      icon: web
+
+    - url: https://example.com/alert
+      title: Alertas (Skywalking)
+      icon: alert
+
+    - url: https://example.com/alert
+      title: Logs (Skywalking)
+      icon: alert
+
+    - url: https://example.com/alert
+      title: Trace (Skywalking)
+      icon: alert
+
+  annotations:
+    github.com/project-slug: ${{values.destination.owner + "/" + values.destination.repo}}
+    dev.azure.com/project-repo: ${{values.destination.owner + "/" + values.destination.repo}}
+    backstage.io/techdocs-ref: dir:.
+    dev.azure.com/project: ${{values.destination.owner}}
+    dev.azure.com/build-definition: ${{values.destination.repo}}
+
+    jenkins.io/github-folder: 'folder-name/project-name
+spec:
+  type: service
+  lifecycle: experimental
+  owner: ${{values.owner | dump}}

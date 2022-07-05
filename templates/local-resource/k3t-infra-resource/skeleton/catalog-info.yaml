@@ -1,0 +1,31 @@
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+metadata:
+  name: ${{values.component_id | dump}}
+  {%- if values.description %}
+  description: ${{values.description | dump}}
+  {%- endif %}
+  namespace: default
+  annotations:
+    tech.kode3/stack: ${{values.stack | dump}}
+  tags:
+    - infra
+    - kode3
+    - ${{values.stack}}
+    - ${{values.type}}
+spec:
+  type: ${{values.type | dump}}
+  version: v1
+  owner: ${{values.owner | dump}}
+  lifecycle: draft
+  {%- if values.system %}
+  system: ${{values.system | replace("system:", "") | dump}}
+  {%- endif %}
+  {%- if values.dependsOn %}
+  dependsOn:
+    - ${{values.dependsOn | dump}}
+  {%- endif %}
+  {%- if values.dependencyOf %}
+  dependencyOf:
+    - ${{values.dependencyOf | dump}}
+  {%- endif %}

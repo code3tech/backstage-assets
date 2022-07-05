@@ -1,0 +1,8 @@
+apiVersion: backstage.io/v1alpha1
+kind: Location
+metadata:
+  name: resource-templates-local
+  description: A collection of remotely available Backstage example templates
+spec:
+  targets:
+    - https://github.com/code3tech/backstage-assets/blob/main/templates/local-resource/k3t-infra-resource/template.yaml

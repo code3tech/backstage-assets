@@ -1,0 +1,3879 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<bindings xmlns="http://java.sun.com/xml/ns/jaxb" if-exists="true" version="2.1">
+      
+    <!--
+
+Este arquivo foi gerado pela Arquitetura JavaTM para Implementação de Referência (JAXB) de Bind XML, v2.3.0 
+Consulte <a href="https://javaee.github.io/jaxb-v2/">https://javaee.github.io/jaxb-v2/</a> 
+Todas as modificações neste arquivo serão perdidas após a recompilação do esquema de origem. 
+Gerado em: 2021.07.22 às 08:55:04 AM BRT 
+
+  -->
+      
+    <bindings xmlns:tns="http://amdocs/tef-vivo/resource-common/types/v1" if-exists="true" scd="x-schema::tns">
+            
+        <schemaBindings map="false">
+                  
+            <package name="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs"/>
+                
+        </schemaBindings>
+            
+        <bindings if-exists="true" scd="~tns:ChangeDeviceAndSimResponse">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.ChangeDeviceAndSimResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:BaIdInfo">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.BaIdInfo"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:ChangeDeviceAndSimRequest">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.ChangeDeviceAndSimRequest"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:ShippingAddress">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.ShippingAddress"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:Contact">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.Contact2"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:IndividualRole">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.IndividualRole2"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:PartyRole">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.PartyRole4"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:EquipmentDevice">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.EquipmentDevice"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:Renova">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.Renova"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:Valoriza">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.Valoriza"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:TelephoneNumberResource">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.TelephoneNumberResource"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:LogicalResource">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.LogicalResource"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:Resource">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.Resource"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:Payment">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.Payment"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:FinancialTransaction">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.FinancialTransaction"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:SimCardDevice">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.SimCardDevice"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:Error">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.Error"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:CharacteristicValueForResource">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.CharacteristicValueForResource"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:ResourceCharacteristicValue">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.ResourceCharacteristicValue"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:DeviceForHybris">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.DeviceForHybris"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:LogicalResourceExternalID">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.LogicalResourceExternalID"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:ResourceExternalID">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.ResourceExternalID"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:LogicalResourceExternalIDAndType">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.LogicalResourceExternalIDAndType"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:ResourceLogicalResourceExternalIDAndType">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.ResourceLogicalResourceExternalIDAndType"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:LogicalResourceForMSISDN">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.LogicalResourceForMSISDN"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:ResourceForMSISDN">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.ResourceForMSISDN"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:MSISDNTelephoneNumberResource">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.MSISDNTelephoneNumberResource"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:LogicalResourceSummary">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.LogicalResourceSummary"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:ResourceSummary">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.ResourceSummary"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:LogicalResourceSummaryForRetrieve">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.LogicalResourceSummaryForRetrieve"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:ResourceSummaryForRetrieve">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.ResourceSummaryForRetrieve"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:PortabilityInformationRequest">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.PortabilityInformationRequest"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:PortabilityInformationResponse">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.PortabilityInformationResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:PortabilityStatus">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.PortabilityStatus"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:SimCardDeviceForHybris">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.SimCardDeviceForHybris"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:User">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.User"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:LogicalResourceTypeNameAll">
+                  
+            <typesafeEnumClass ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.LogicalResourceTypeNameAll"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:LogicalResourceStatus">
+                  
+            <typesafeEnumClass ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.LogicalResourceStatus"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:NumberPortOutRequestReason">
+                  
+            <typesafeEnumClass ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.NumberPortOutRequestReason"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:NumberPortabilityStatus">
+                  
+            <typesafeEnumClass ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.NumberPortabilityStatus"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:RetrieveNumberPortabilityStatus">
+                  
+            <typesafeEnumClass ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.RetrieveNumberPortabilityStatus"/>
+                
+        </bindings>
+          
+    </bindings>
+      
+    <bindings xmlns:tns="http://amdocs/tef-vivo/productcatalog-common/types/v1" if-exists="true" scd="x-schema::tns">
+            
+        <schemaBindings map="false">
+                  
+            <package name="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs"/>
+                
+        </schemaBindings>
+            
+        <bindings if-exists="true" scd="~tns:ProductSpecDisplayProperties">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.ProductSpecDisplayProperties"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:CharacteristicForDisplay">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.CharacteristicForDisplay"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:CharacteristicDisplayForProductSpec">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.CharacteristicDisplayForProductSpec"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:ActivityChargeID">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.ActivityChargeID"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:ConfigurableCharacteristicDisplay">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.ConfigurableCharacteristicDisplay"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:ProductSpecCharacteristicDisplay">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.ProductSpecCharacteristicDisplay"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:CharacteristicID">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.CharacteristicID2"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:ConfigurableCharacteristicID">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.ConfigurableCharacteristicID2"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:ProductSpecCharacteristicID">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.ProductSpecCharacteristicID2"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:PlanDetails">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.PlanDetails"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:PriceSchemaID">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.PriceSchemaID"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:ProductCatalogVersionID">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.ProductCatalogVersionID"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:ProductOffering">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.ProductOffering"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:ProductOfferingID">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.ProductOfferingID"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:ProductOfferingIDAndName">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.ProductOfferingIDAndName"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:ProductOfferingName">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.ProductOfferingName"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:ProductSpecificationID">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.ProductSpecificationID"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:ProductSpecificationTypeAndName">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.ProductSpecificationTypeAndName"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:BillingPriceSchemaType">
+                  
+            <typesafeEnumClass ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.BillingPriceSchemaType"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:PaymentCategory">
+                  
+            <typesafeEnumClass ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.PaymentCategory"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:PriceSchemaType">
+                  
+            <typesafeEnumClass ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.PriceSchemaType"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:ProductSpecificationLevel">
+                  
+            <typesafeEnumClass ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.ProductSpecificationLevel"/>
+                
+        </bindings>
+          
+    </bindings>
+      
+    <bindings xmlns:tns="http://amdocs/tef-vivo/billingaccountmanagement/types/v1" if-exists="true" scd="x-schema::tns">
+            
+        <schemaBindings map="false">
+                  
+            <package name="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs"/>
+                
+        </schemaBindings>
+            
+        <bindings if-exists="true" scd="~tns:SubscriptionSummary">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.SubscriptionSummary"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:CustomerAccountWithMappedSubscribers">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.CustomerAccountWithMappedSubscribers"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:CustomerAccountSummary">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.CustomerAccountSummary"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:CustomerAccountForSearch">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.CustomerAccountForSearch"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:CustomerAccountForRetrieve">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.CustomerAccountForRetrieve"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:CollectionTreatment">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.CollectionTreatment"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:AgeBuckets">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.AgeBuckets"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:BillSpecAdditionalAttributes">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.BillSpecAdditionalAttributes"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:CharacteristicValue">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.CharacteristicValue"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:CollectionTreatmentCharacteristicValue">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.CollectionTreatmentCharacteristicValue"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:CollectionTreatmentForSearch">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.CollectionTreatmentForSearch"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:ContactMedium">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.ContactMedium2"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:PostalContactForGetDocument">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.PostalContactForGetDocument"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:State">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.State3"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:ContactMediumBillingAddress">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.ContactMediumBillingAddress2"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:EmailContactBillingAddress">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.EmailContactBillingAddress2"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:PostalContactBillingAddress">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.PostalContactBillingAddress2"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:ContactMediumForNotifyCustomer">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.ContactMediumForNotifyCustomer"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:EmailContact">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.EmailContact2"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:CustomerAccountFAID">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.CustomerAccountFAID"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:MappedSubscriptionDetails">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.MappedSubscriptionDetails"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:MappedLogicalResource">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.MappedLogicalResource"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:MappedResource">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.MappedResource"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:CustomerBill">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.CustomerBill"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:CustomerBillingCycle">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.CustomerBillingCycle"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:CustomerBillReceiver">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.CustomerBillReceiver"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:CustomerBillSpecForRetrieve">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.CustomerBillSpecForRetrieve"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:CustomerInvoiceReceiver">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.CustomerInvoiceReceiver"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:CustomerBillSpecAdditionalAttributes">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.CustomerBillSpecAdditionalAttributes"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:CustomerBillSpecCoreSummary">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.CustomerBillSpecCoreSummary"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:CustomerBillSpecSummary">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.CustomerBillSpecSummary"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:CustomerBillSpecForRetrieveDeliveryMethod">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.CustomerBillSpecForRetrieveDeliveryMethod"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:CustomerBillSpecForUpdateDeliveryMethod">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.CustomerBillSpecForUpdateDeliveryMethod"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:CustomerBillingCycleForNotifyCustomer">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.CustomerBillingCycleForNotifyCustomer"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:CustomerBillingCycleForRetrieve">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.CustomerBillingCycleForRetrieve"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:CustomerBillingCycleSpecification">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.CustomerBillingCycleSpecification2"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:CustomerBillingProfileForRetrieve">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.CustomerBillingProfileForRetrieve"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:CustomerBusinessUnit">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.CustomerBusinessUnit"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:PartyRole">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.PartyRole3"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:CustomerIDAndType">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.CustomerIDAndType"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:PartyRoleForCustomer">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.PartyRoleForCustomer"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:CustomerSubscriptionSummary">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.CustomerSubscriptionSummary"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:DocumentUrl">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.DocumentUrl"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:IndividualIdentification">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.IndividualIdentification3"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:NationalIdentityCardIdentification">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.NationalIdentityCardIdentification3"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:SubscriptionGroup">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.SubscriptionGroup"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:TimeZoneId">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.TimeZoneId"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:TotalAmount">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.TotalAmount"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:BillFormat">
+                  
+            <typesafeEnumClass ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.BillFormat"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:DeliveryMethodAMDD">
+                  
+            <typesafeEnumClass ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.DeliveryMethodAMDD"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:DocumentType">
+                  
+            <typesafeEnumClass ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.DocumentType2"/>
+                
+        </bindings>
+          
+    </bindings>
+      
+    <bindings xmlns:tns="http://amdocs/tef-vivo/customerbilling-common/types/v1" if-exists="true" scd="x-schema::tns">
+            
+        <schemaBindings map="false">
+                  
+            <package name="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs"/>
+                
+        </schemaBindings>
+            
+        <bindings if-exists="true" scd="~tns:SubscriptionAllID">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.SubscriptionAllID"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:PeriodInvoices">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.PeriodInvoices"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:Offer">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.Offer"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:InvoiceListEntry">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.InvoiceListEntry"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:AccountCollectionInfo">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.AccountCollectionInfo"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:AbstractCustomerInvoiceForCreditNoteNumber">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.AbstractCustomerInvoiceForCreditNoteNumber"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:FinancialTransactionForCreditNoteNumber">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.FinancialTransactionForCreditNoteNumber"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:CustomerCreditNoteNumber">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.CustomerCreditNoteNumber"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:AbstractCustomerInvoiceID">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.AbstractCustomerInvoiceID"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:FinancialTransactionID">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.FinancialTransactionID"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:CustomerInvoiceID">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.CustomerInvoiceID"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:AbstractCustomerInvoiceNumber">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.AbstractCustomerInvoiceNumber"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:FinancialTransactionNumber">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.FinancialTransactionNumber"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:CustomerInvoiceNumber">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.CustomerInvoiceNumber"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:AccountCollectionDateInfo">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.AccountCollectionDateInfo"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:AccountCollectionFixInfo">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.AccountCollectionFixInfo"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:PunishmentLevelInfo">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.PunishmentLevelInfo"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:AppliedCreditRateID">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.AppliedCreditRateID"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:AppliedCustomerBillingCreditForCreditID">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.AppliedCustomerBillingCreditForCreditID"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:AppliedCustomerBillingRateForCreditID">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.AppliedCustomerBillingRateForCreditID"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:AppliedCustomerBillingRateCoreID">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.AppliedCustomerBillingRateCoreID"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:AppliedCustomerBillingRateID">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.AppliedCustomerBillingRateID"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:AppliedProductUsageRateID">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.AppliedProductUsageRateID"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:AssignedBillingOfferID">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.AssignedBillingOfferID"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:ChargeCode">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.ChargeCode"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:CustAccountHeader">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.CustAccountHeader"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:CustomerBillID">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.CustomerBillID2"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:CustomerBillingCycleForQuery">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.CustomerBillingCycleForQuery"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:CustomerBillingCycleSpecificationForQuery">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.CustomerBillingCycleSpecificationForQuery"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:CustomerBillingCycleSpecificationCode">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.CustomerBillingCycleSpecificationCode"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:CustomerBillingCycleSpecificationForRetrieve">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.CustomerBillingCycleSpecificationForRetrieve"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:CustomerBillingCycleSpecificationForRetrieveBillingCycle">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.CustomerBillingCycleSpecificationForRetrieveBillingCycle"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:FinancialTransactionForRefundID">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.FinancialTransactionForRefundID"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:RefundID">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.RefundID"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:FinancialTransactionPaymentID">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.FinancialTransactionPaymentID"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:PaymentID">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.PaymentID"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:PayChannelID">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.PayChannelID"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:PaymentDetailsID">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.PaymentDetailsID"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:ProductUsageAllowanceID">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.ProductUsageAllowanceID"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:RechargeMethod">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.RechargeMethod"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:SearchPeriodInvoicesQuery">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.SearchPeriodInvoicesQuery"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:SubscriptionDefaultDistributionChannel">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.SubscriptionDefaultDistributionChannel"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:SubscriptionGroupID">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.SubscriptionGroupID"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:SubscriptionID">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.SubscriptionID"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:SubscriptionOCDistributionChannel">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.SubscriptionOCDistributionChannel"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:SubscriptionRCDistributionChannel">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.SubscriptionRCDistributionChannel"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:SubscriptionReferenceID">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.SubscriptionReferenceID"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:UsageClassificationRuleCode">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.UsageClassificationRuleCode"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:UsageEventType">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.UsageEventType"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:UsageEventTypeID">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.UsageEventTypeID"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:CreditReason">
+                  
+            <typesafeEnumClass ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.CreditReason"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:BillingSubscriptionStatus">
+                  
+            <typesafeEnumClass ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.BillingSubscriptionStatus"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:ChargeOrigin">
+                  
+            <typesafeEnumClass ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.ChargeOrigin"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:CollectionCategory">
+                  
+            <typesafeEnumClass ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.CollectionCategory"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:CollectionStatusBilling">
+                  
+            <typesafeEnumClass ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.CollectionStatusBilling"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:CustomerBillStatus">
+                  
+            <typesafeEnumClass ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.CustomerBillStatus"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:CustomerBillingCyclePopulationCode">
+                  
+            <typesafeEnumClass ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.CustomerBillingCyclePopulationCode"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:CustomerBillingCycleStatus">
+                  
+            <typesafeEnumClass ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.CustomerBillingCycleStatus"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:DocumentDemandType">
+                  
+            <typesafeEnumClass ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.DocumentDemandType"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:InvoiceStatus">
+                  
+            <typesafeEnumClass ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.InvoiceStatus"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:InvoiceType">
+                  
+            <typesafeEnumClass ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.InvoiceType"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:PaymentArrangementPolicy">
+                  
+            <typesafeEnumClass ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.PaymentArrangementPolicy"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:PaymentMethod">
+                  
+            <typesafeEnumClass ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.PaymentMethod"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:PrintingCategory">
+                  
+            <typesafeEnumClass ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.PrintingCategory"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:ProductionType">
+                  
+            <typesafeEnumClass ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.ProductionType"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:RechargeCancellationType">
+                  
+            <typesafeEnumClass ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.RechargeCancellationType"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:RechargeChannel">
+                  
+            <typesafeEnumClass ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.RechargeChannel"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:RechargeMethodCode">
+                  
+            <typesafeEnumClass ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.RechargeMethodCode"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:RechargeMethodType">
+                  
+            <typesafeEnumClass ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.RechargeMethodType"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:RechargeStatus">
+                  
+            <typesafeEnumClass ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.RechargeStatus"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:RechargeType">
+                  
+            <typesafeEnumClass ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.RechargeType"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:RefundType">
+                  
+            <typesafeEnumClass ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.RefundType"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:RevenueCode">
+                  
+            <typesafeEnumClass ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.RevenueCode"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:SubscriptionStatus">
+                  
+            <typesafeEnumClass ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.SubscriptionStatus"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:SubscriptionStatusForOffer">
+                  
+            <typesafeEnumClass ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.SubscriptionStatusForOffer"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:SubscriptionType">
+                  
+            <typesafeEnumClass ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.SubscriptionType"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:TaxAuthority">
+                  
+            <typesafeEnumClass ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.TaxAuthority"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:TaxAuthorityType">
+                  
+            <typesafeEnumClass ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.TaxAuthorityType"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:TaxType">
+                  
+            <typesafeEnumClass ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.TaxType"/>
+                
+        </bindings>
+          
+    </bindings>
+      
+    <bindings xmlns:tns="http://amdocs/tef-vivo/customerprofile/types/v1" if-exists="true" scd="x-schema::tns">
+            
+        <schemaBindings map="false">
+                  
+            <package name="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs"/>
+                
+        </schemaBindings>
+            
+        <bindings if-exists="true" scd="~tns:ProductForInvolvement">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.ProductForInvolvement"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:PrimaryContactForCreate">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.PrimaryContactForCreate"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:PrepaidBalanceForInvolvement">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.PrepaidBalanceForInvolvement"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:OrganizationForCreate">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.OrganizationForCreate"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:OrganizationDetails">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.OrganizationDetails2"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:Organization">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.Organization2"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:IndividualForCreate">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.IndividualForCreate"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:GeographicLocation">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.GeographicLocation"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:CustomerForInvolvementPartyRole">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.CustomerForInvolvementPartyRole"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:CustomerBillSpecForInvolvement">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.CustomerBillSpecForInvolvement"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:CustomerAccountForInvolvement">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.CustomerAccountForInvolvement"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:PartyRole">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.PartyRole2"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:ContactForUpdate">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.ContactForUpdate"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:ContactForRole">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.ContactForRole"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:ContactForMeans">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.ContactForMeans"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:ContactForCreate">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.ContactForCreate"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:ComplementSummary">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.ComplementSummary"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:BankAccountForCreate">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.BankAccountForCreate"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:Individual">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.Individual2"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:Contact">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.Contact"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:AggregateContactForRetrieve">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.AggregateContactForRetrieve"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:AccountBillingInfo">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.AccountBillingInfo"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:AccountGeneralInfo">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.AccountGeneralInfo"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:AccountingManagementInfo">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.AccountingManagementInfo"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:AddressInfo">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.AddressInfo"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:AddressNameLinkInfo">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.AddressNameLinkInfo"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:BankAccount">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.BankAccount"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:Card">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.Card"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:IndividualRole">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.IndividualRole"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:IndividualPartyRole">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.IndividualPartyRole"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:ContactMedium">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.ContactMedium"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:EmailContact">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.EmailContact"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:FaxNumber">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.FaxNumber"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:PostalContact">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.PostalContact"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:TelephoneNumber">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.TelephoneNumber"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:GeographicSiteSummary">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.GeographicSiteSummary"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:IndividualParty">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.IndividualParty2"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:IndividualIdentification">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.IndividualIdentification2"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:DriversLicenseIdentification">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.DriversLicenseIdentification"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:NationalIdentityCardIdentification">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.NationalIdentityCardIdentification2"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:OtherIndividualIdentification">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.OtherIndividualIdentification"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:PassportIdentification">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.PassportIdentification"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:SocialSecurityNumberIdentification">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.SocialSecurityNumberIdentification"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:IndividualName">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.IndividualName2"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:BankAccountAuthorization">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.BankAccountAuthorization"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:BankAccountSummary">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.BankAccountSummary"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:CardForCreate">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.CardForCreate"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:CardSummary">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.CardSummary"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:CompanyRegistration">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.CompanyRegistration"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:OrganizationIdentification">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.OrganizationIdentification"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:OtherOrganizationIdentification">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.OtherOrganizationIdentification"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:TaxRegistration">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.TaxRegistration"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:CompanyRegistrationForCreate">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.CompanyRegistrationForCreate"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:OrganizationIdentificationForCreate">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.OrganizationIdentificationForCreate"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:OtherOrganizationIdentificationForCreate">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.OtherOrganizationIdentificationForCreate"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:TaxRegistrationForCreate">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.TaxRegistrationForCreate"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:CompanyRegistrationForUpdate">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.CompanyRegistrationForUpdate"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:OrganizationIdentificationForUpdate">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.OrganizationIdentificationForUpdate"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:OtherOrganizationIdentificationForUpdate">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.OtherOrganizationIdentificationForUpdate"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:TaxRegistrationForUpdate">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.TaxRegistrationForUpdate"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:Complement">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.Complement"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:IndividualRoleForCreate">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.IndividualRoleForCreate"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:PartyRoleForCreate">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.PartyRoleForCreate"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:ContactMediumForCreate">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.ContactMediumForCreate"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:EmailContactForCreate">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.EmailContactForCreate"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:FaxNumberForCreate">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.FaxNumberForCreate"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:PostalContactForCreate">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.PostalContactForCreate"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:GeographicAddressForCreate">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.GeographicAddressForCreate"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:TelephoneNumberForCreate">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.TelephoneNumberForCreate"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:IndividualRoleForMeans">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.IndividualRoleForMeans"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:IndividualPartyRoleForMeans">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.IndividualPartyRoleForMeans"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:IndividualRoleOnlyPartyID">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.IndividualRoleOnlyPartyID"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:IndividualPartyRoleOnlyPartyID">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.IndividualPartyRoleOnlyPartyID"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:IndividualRoleForUpdate">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.IndividualRoleForUpdate"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:PartyRoleForUpdate">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.PartyRoleForUpdate"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:ContactMediumForUpdate">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.ContactMediumForUpdate"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:EmailContactForUpdate">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.EmailContactForUpdate"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:FaxNumberForUpdate">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.FaxNumberForUpdate"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:PostalContactForUpdate">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.PostalContactForUpdate"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:TelephoneNumberForUpdate">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.TelephoneNumberForUpdate"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:ContactMediumBillingAddress">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.ContactMediumBillingAddress"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:EmailContactBillingAddress">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.EmailContactBillingAddress"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:PostalContactBillingAddress">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.PostalContactBillingAddress"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:PhoneContactBillingAddress">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.PhoneContactBillingAddress"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:ContactMediumBillingAddressForCreate">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.ContactMediumBillingAddressForCreate"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:EmailContactBillingAddressForCreate">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.EmailContactBillingAddressForCreate"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:PostalContactBillingAddressForCreate">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.PostalContactBillingAddressForCreate"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:ContactMediumForCreateByName">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.ContactMediumForCreateByName"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:EmailContactForCreateByName">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.EmailContactForCreateByName"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:FaxNumberForCreateByName">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.FaxNumberForCreateByName"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:PostalContactForCreateByName">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.PostalContactForCreateByName"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:TelephoneNumberForCreateByName">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.TelephoneNumberForCreateByName"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:ContactMediumForCreateContact">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.ContactMediumForCreateContact"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:EmailContactForCreateContact">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.EmailContactForCreateContact"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:FaxNumberForCreateContact">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.FaxNumberForCreateContact"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:PostalContactForCreateContact">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.PostalContactForCreateContact"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:TelephoneNumberForCreateContact">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.TelephoneNumberForCreateContact"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:ContactMediumForInvolvement">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.ContactMediumForInvolvement"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:EmailContactForInvolvement">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.EmailContactForInvolvement"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:FaxNumberForInvolvement">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.FaxNumberForInvolvement"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:PostalContactForInvolvement">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.PostalContactForInvolvement"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:TelephoneNumberForInvolvement">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.TelephoneNumberForInvolvement"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:ContactMediumForSearchContact">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.ContactMediumForSearchContact"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:EmailContactForSearchContact">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.EmailContactForSearchContact"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:TelephoneNumberForSearchContact">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.TelephoneNumberForSearchContact"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:PostalContactForSearchContact">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.PostalContactForSearchContact"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:ContactPartyRoleRelationship">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.ContactPartyRoleRelationship"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:ContactPartyRoleRelationshipForCreate">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.ContactPartyRoleRelationshipForCreate"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:ContactPartyRoleRelationshipForUpdate">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.ContactPartyRoleRelationshipForUpdate"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:Customer">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.Customer2"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:CustomerBillingProfile">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.CustomerBillingProfile"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:CustomerBillingCycleSpecification">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.CustomerBillingCycleSpecification"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:CycleChangeRequest">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.CycleChangeRequest"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:CustomerAccountForCreate">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.CustomerAccountForCreate"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:PartyRoleCustomerAccountInvolvement">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.PartyRoleCustomerAccountInvolvement"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:CustomerAccountTaxExemptionForCreate">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.CustomerAccountTaxExemptionForCreate"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:CustomerAccountTaxExemptionForUpdate">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.CustomerAccountTaxExemptionForUpdate"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:CustomerAccountTaxExemptionID">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.CustomerAccountTaxExemptionID"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:CustomerBillSpecForCreate">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.CustomerBillSpecForCreate"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:PayInstructionForCreate">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.PayInstructionForCreate"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:PartyRoleCustomerBillSpecInvolvement">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.PartyRoleCustomerBillSpecInvolvement"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:CustomerBillingCycleInfoForUpdate">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.CustomerBillingCycleInfoForUpdate"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:CustomerBillingProfileSummary">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.CustomerBillingProfileSummary"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:CustomerCycleCodeInformation">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.CustomerCycleCodeInformation"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:CustomerDetails">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.CustomerDetails2"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:GeographicAddress">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.GeographicAddress2"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:CustomerForInvolvement">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.CustomerForInvolvement"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:CustomerInformation">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.CustomerInformation"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:CustomerSummary">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.CustomerSummary"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:PartyRoleForCustomerSummary">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.PartyRoleForCustomerSummary"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:CustomerTypeCycleDescription">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.CustomerTypeCycleDescription"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:DriversLicenseIdentificationForCreate">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.DriversLicenseIdentificationForCreate"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:IndividualIdentificationForCreate">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.IndividualIdentificationForCreate"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:NationalIdentityCardIdentificationForCreate">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.NationalIdentityCardIdentificationForCreate"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:OtherIndividualIdentificationForCreate">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.OtherIndividualIdentificationForCreate"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:PassportIdentificationForCreate">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.PassportIdentificationForCreate"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:SocialSecurityNumberIdentificationForCreate">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.SocialSecurityNumberIdentificationForCreate"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:Geometry">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.Geometry"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:IndividualCustomerBillingProfileForCreate">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.IndividualCustomerBillingProfileForCreate"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:IndividualCustomerForCreate">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.IndividualCustomerForCreate"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:IndividualCustomerPartyRoleForCreate">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.IndividualCustomerPartyRoleForCreate"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:IndividualDetails">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.IndividualDetails2"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:PartyForCreate">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.PartyForCreate"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:IndividualForCreateByName">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.IndividualForCreateByName"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:IndividualPartyForCreateByName">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.IndividualPartyForCreateByName"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:IndividualForUpdate">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.IndividualForUpdate"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:IndividualPartyForUpdate">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.IndividualPartyForUpdate"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:IndividualNameForUpdate">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.IndividualNameForUpdate"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:IndividualSummary">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.IndividualSummary"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:IndividualSummaryPartyForCreateByName">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.IndividualSummaryPartyForCreateByName"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:InstallationAddress">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.InstallationAddress"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:NameAddressInfo">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.NameAddressInfo"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:NameInfo">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.NameInfo"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:OrganizationParty">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.OrganizationParty2"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:OrganizationName">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.OrganizationName2"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:OrganizationCustomerForCreate">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.OrganizationCustomerForCreate"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:OrganizationPartyRoleForCreate">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.OrganizationPartyRoleForCreate"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:OrganizationCustomerProfileForCreate">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.OrganizationCustomerProfileForCreate"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:PartyRoleForOrganizationCustomerProfile">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.PartyRoleForOrganizationCustomerProfile"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:OrganizationPartyForCreate">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.OrganizationPartyForCreate"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:OrganizationForUpdate">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.OrganizationForUpdate"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:OrganizationPartyForUpdate">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.OrganizationPartyForUpdate"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:OrganizationIdentificationID">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.OrganizationIdentificationID"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:OrganizationShortSummary">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.OrganizationShortSummary"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:OrganizationSummary">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.OrganizationSummary"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:OrganizationSummaryParty">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.OrganizationSummaryParty"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:PartyRoleContactMediumForUpdate">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.PartyRoleContactMediumForUpdate"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:PartyRoleEmailContactForUpdate">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.PartyRoleEmailContactForUpdate"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:PartyRolePostalContactForUpdate">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.PartyRolePostalContactForUpdate"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:PartyRoleTelephoneNumberForUpdate">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.PartyRoleTelephoneNumberForUpdate"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:PartyRoleCustomerAccountInvolvementForCreate">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.PartyRoleCustomerAccountInvolvementForCreate"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:PartyRoleCustomerBillSpecInvolvementForCreate">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.PartyRoleCustomerBillSpecInvolvementForCreate"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:PartyRolePrepaidBalanceInvolvement">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.PartyRolePrepaidBalanceInvolvement"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:PartyRoleProductInvolvement">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.PartyRoleProductInvolvement"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:PrimaryIndividualRoleForCreate">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.PrimaryIndividualRoleForCreate"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:PrimaryPartyRoleForCreate">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.PrimaryPartyRoleForCreate"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:SubscriptionContactAssociation">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.SubscriptionContactAssociation"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:ContactPartyRoleType">
+                  
+            <typesafeEnumClass ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.ContactPartyRoleType2"/>
+                
+        </bindings>
+          
+    </bindings>
+      
+    <bindings xmlns:tns="http://amdocs/tef-vivo/core/types/v1" if-exists="true" scd="x-schema::tns">
+            
+        <schemaBindings map="false">
+                  
+            <package name="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs"/>
+                
+        </schemaBindings>
+            
+        <bindings if-exists="true" scd="~tns:OrderActionManuallyHandledFaultInfo">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.OrderActionManuallyHandledFaultInfo"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:OrderActionBeforeActivityFaultInfo">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.OrderActionBeforeActivityFaultInfo"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:MultipleInstanceFoundFaultInfo">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.MultipleInstanceFoundFaultInfo"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:MandatoryParameterMissingFaultInfo">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.MandatoryParameterMissingFaultInfo"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:InvalidParameterFaultInfo">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.InvalidParameterFaultInfo"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:EntityStatusTransitionFaultInfo">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.EntityStatusTransitionFaultInfo"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:EntityNotFoundFaultInfo">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.EntityNotFoundFaultInfo"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:EntityLockedFaultInfo">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.EntityLockedFaultInfo"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:EntityKeyAlreadyExistsFaultInfo">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.EntityKeyAlreadyExistsFaultInfo"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:EntityCannotBeUpdatedFaultInfo">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.EntityCannotBeUpdatedFaultInfo"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:DuplicateUniqueAttributeFaultInfo">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.DuplicateUniqueAttributeFaultInfo"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:AssociatedEntityNotFoundFaultInfo">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.AssociatedEntityNotFoundFaultInfo"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:BillingFaultInfo">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.BillingFaultInfo"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:DateRangeInvalidFaultInfo">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.DateRangeInvalidFaultInfo"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:DateValueFaultInfo">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.DateValueFaultInfo"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:InconsistentParameterFaultInfo">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.InconsistentParameterFaultInfo"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:InputValidationCodeFaultInfo">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.InputValidationCodeFaultInfo"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:InputValidationContentFaultInfo">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.InputValidationContentFaultInfo"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:InputValidationFaultInfo">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.InputValidationFaultInfo"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:InputValidationSizeFaultInfo">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.InputValidationSizeFaultInfo"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:InvalidUsageFaultInfo">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.InvalidUsageFaultInfo"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:NumericValueNotInRangeFaultInfo">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.NumericValueNotInRangeFaultInfo"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:ObjectCreationFaultInfo">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.ObjectCreationFaultInfo"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:ReferenceDataNotFoundFaultInfo">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.ReferenceDataNotFoundFaultInfo"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:ResourceManagerFaultInfo">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.ResourceManagerFaultInfo"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:UserNotEntityOwnerFaultInfo">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.UserNotEntityOwnerFaultInfo"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:AdditionalId">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.AdditionalId"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:AdditionalIdKey">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.AdditionalIdKey"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:ApplicationContext">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.ApplicationContext"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:FlexAttrText">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.FlexAttrText"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:FlexAttr">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.FlexAttr"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:FlexAttrDateTime">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.FlexAttrDateTime"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:FlexAttrDecimal">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.FlexAttrDecimal"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:FlexAttrIndicator">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.FlexAttrIndicator"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:FlexAttrInteger">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.FlexAttrInteger"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:FlexAttrURI">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.FlexAttrURI"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:BinaryObject">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.BinaryObject"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:DateRange">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.DateRange"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:FlexAttrForTextOnly">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.FlexAttrForTextOnly"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:FlexAttrTextOnly">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.FlexAttrTextOnly"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:Product">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.Product"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:CountryCode">
+                  
+            <typesafeEnumClass ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.CountryCode"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:LanguageCode">
+                  
+            <typesafeEnumClass ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.LanguageCode"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:CharacterSetCode">
+                  
+            <typesafeEnumClass ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.CharacterSetCode"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:CurrencyCode">
+                  
+            <typesafeEnumClass ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.CurrencyCode"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:OperationStatus">
+                  
+            <typesafeEnumClass ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.OperationStatus"/>
+                
+        </bindings>
+          
+    </bindings>
+      
+    <bindings xmlns:tns="http://amdocs/tef-vivo/customerinformationmanagement/customerprofilemanagement/v1" if-exists="true" scd="x-schema::tns">
+            
+        <schemaBindings map="false">
+                  
+            <package name="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs"/>
+                
+        </schemaBindings>
+            
+        <bindings if-exists="true" scd="~tns:OrganizationDetails">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.OrganizationDetails"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:IndividualInvolvementQuery">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.IndividualInvolvementQuery"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:IndividualInvolvement">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.IndividualInvolvement"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:IndividualInfo">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.IndividualInfo"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:UpdateIndividualResponse">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.UpdateIndividualResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:UpdateIndividual">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.UpdateIndividual"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:UpdateContactDetails">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.UpdateContactDetails"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:UpdateBillingAddressForBillSpec">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.UpdateBillingAddressForBillSpec"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:SearchPayMeansForPartyResponse">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.SearchPayMeansForPartyResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:SearchIndividualInvolvementForCustomerResponse">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.SearchIndividualInvolvementForCustomerResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:RetrieveCustomerProfileByExternalIDResponse">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.RetrieveCustomerProfileByExternalIDResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:RetrieveContactResponse">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.RetrieveContactResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:RetrieveContactForIndividualResponse">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.RetrieveContactForIndividualResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:GetRTCsmCycleInfoListResponse">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.GetRTCsmCycleInfoListResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:CreateIndividualCustomerProfileForContact">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.CreateIndividualCustomerProfileForContact"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:CreateContactForIndividual">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.CreateContactForIndividual"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:CreateContactAndIndividualResponse">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.CreateContactAndIndividualResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:CreateContactAndIndividualByNameResponse">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.CreateContactAndIndividualByNameResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:CreateContactAndIndividualByName">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.CreateContactAndIndividualByName"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:ChangeCustomerBillingCycleInfo">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.ChangeCustomerBillingCycleInfo"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:ChangeCustomerBillingCycleInfoResponse">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.ChangeCustomerBillingCycleInfoResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:CreateContactAndIndividual">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.CreateContactAndIndividual"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:CreateContactForIndividualResponse">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.CreateContactForIndividualResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:CreateIndividualCustomerProfileForContactResponse">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.CreateIndividualCustomerProfileForContactResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:DeleteIndividualIdentification">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.DeleteIndividualIdentification"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:DeleteIndividualIdentificationResponse">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.DeleteIndividualIdentificationResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:GetRTCsmCycleInfoList">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.GetRTCsmCycleInfoList"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:RetrieveContact">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.RetrieveContact"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:RetrieveContactForIndividual">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.RetrieveContactForIndividual"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:RetrieveCustomerDetails">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.RetrieveCustomerDetails"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:RetrieveCustomerDetailsResponse">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.RetrieveCustomerDetailsResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:RetrieveCustomerProfileByExternalID">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.RetrieveCustomerProfileByExternalID"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:SearchIndividualInvolvementForCustomer">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.SearchIndividualInvolvementForCustomer"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:SearchPayMeansForParty">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.SearchPayMeansForParty"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:UpdateAddressForCustomerAccount">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.UpdateAddressForCustomerAccount"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:UpdateAddressForCustomerAccountResponse">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.UpdateAddressForCustomerAccountResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:UpdateBillingAddressForBillSpecResponse">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.UpdateBillingAddressForBillSpecResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:UpdateContactAndIndividual">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.UpdateContactAndIndividual"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:UpdateContactAndIndividualResponse">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.UpdateContactAndIndividualResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:UpdateContactDetailsResponse">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.UpdateContactDetailsResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:UpdateContactMeansForCustomer">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.UpdateContactMeansForCustomer"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:UpdateContactMeansForCustomerResponse">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.UpdateContactMeansForCustomerResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:UpdateContactMeansForSubscription">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.UpdateContactMeansForSubscription"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:UpdateContactMeansForSubscriptionResponse">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.UpdateContactMeansForSubscriptionResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:Customer">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.Customer"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:PartyRole">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.PartyRole"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:CustomerDetails">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.CustomerDetails"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:GeographicAddressInfo">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.GeographicAddressInfo"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:State">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.State"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:CustomerIdentification">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.CustomerIdentification"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:Employee">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.Employee"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:GeographicAddress">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.GeographicAddress"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:Individual">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.Individual"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:Party">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.Party"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:IndividualName">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.IndividualName"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:IndividualDetails">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.IndividualDetails"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:IndividualParty">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.IndividualParty"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:NationalIdentityCardIdentification">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.NationalIdentityCardIdentification"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:IndividualIdentification">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.IndividualIdentification"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:IndividualNameInfo">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.IndividualNameInfo"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:IndividualQueryByIdentification">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.IndividualQueryByIdentification"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:Organization">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.Organization"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:OrganizationParty">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.OrganizationParty"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:OrganizationName">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.OrganizationName"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:PayMeansQuery">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.PayMeansQuery"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:UpdateCustomerBillSpecIndicators">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.UpdateCustomerBillSpecIndicators"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:IndividualInvolvementEntityType">
+                  
+            <typesafeEnumClass ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.IndividualInvolvementEntityType"/>
+                
+        </bindings>
+          
+    </bindings>
+      
+    <bindings xmlns:tns="http://amdocs/tef-vivo/commonbusinessentities-common/types/v1" if-exists="true" scd="x-schema::tns">
+            
+        <schemaBindings map="false">
+                  
+            <package name="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs"/>
+                
+        </schemaBindings>
+            
+        <bindings if-exists="true" scd="~tns:AgreementID">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.AgreementID"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:FrameworkAgreementID">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.FrameworkAgreementID"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:ApplicationUser">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.ApplicationUser"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:ApplicationUserID">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.ApplicationUserID"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:ApplicationUserName">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.ApplicationUserName"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:BillingAddressContactMediumID">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.BillingAddressContactMediumID"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:BillingAddressEmailContactID">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.BillingAddressEmailContactID"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:BillingAddressPostalContactID">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.BillingAddressPostalContactID"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:BillingCycleControlInformation">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.BillingCycleControlInformation"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:BusinessOrganizationUnitID">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.BusinessOrganizationUnitID"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:CharacteristicName">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.CharacteristicName"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:ContactID">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.ContactID"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:IndividualRoleID">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.IndividualRoleID"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:PartyRoleID">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.PartyRoleID"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:ContactMediumCoreID">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.ContactMediumCoreID"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:ContactMediumID">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.ContactMediumID"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:EmailContactID">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.EmailContactID"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:FaxNumberID">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.FaxNumberID"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:PostalContactID">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.PostalContactID"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:TelephoneNumberID">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.TelephoneNumberID"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:County">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.County"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:CountyID">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.CountyID"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:CountyName">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.CountyName"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:CustomerAllID">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.CustomerAllID"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:PartyRoleCustomerAllID">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.PartyRoleCustomerAllID"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:CustomerBillID">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.CustomerBillID"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:CustomerExternalID">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.CustomerExternalID"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:PartyRoleExternalID">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.PartyRoleExternalID"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:CustomerID">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.CustomerID"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:PartyRoleCustomerID">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.PartyRoleCustomerID"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:FormattedGeographicAddress">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.FormattedGeographicAddress"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:GeographicAddressID">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.GeographicAddressID"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:GeographicSiteCoreID">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.GeographicSiteCoreID"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:GeographicSiteID">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.GeographicSiteID"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:GeographicSiteExternalID">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.GeographicSiteExternalID"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:GeographicSiteForInternalSiteName">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.GeographicSiteForInternalSiteName"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:InternalSiteName">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.InternalSiteName"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:IndividualAllID">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.IndividualAllID"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:PartyIndividualAllID">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.PartyIndividualAllID"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:IndividualExternalID">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.IndividualExternalID"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:PartyIndividualExternalID">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.PartyIndividualExternalID"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:IndividualID">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.IndividualID"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:PartyID">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.PartyID"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:OrganizationID">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.OrganizationID"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:IndividualIdentificationID">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.IndividualIdentificationID"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:IndividualNameBilling">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.IndividualNameBilling"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:IndividualNameShort">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.IndividualNameShort"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:IndividualOnlyID">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.IndividualOnlyID"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:PartyIndividualID">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.PartyIndividualID"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:IndividualShortSummary">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.IndividualShortSummary"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:IndividualShortSummaryParty">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.IndividualShortSummaryParty"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:Messages">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.Messages"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:OrganizationAllID">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.OrganizationAllID"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:PartyOrganizationAllID">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.PartyOrganizationAllID"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:OrganizationExternalID">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.OrganizationExternalID"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:PartyOrganizationExternalID">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.PartyOrganizationExternalID"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:OrganizationNameShort">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.OrganizationNameShort"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:OrganizationOnlyID">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.OrganizationOnlyID"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:PartyOrganizationID">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.PartyOrganizationID"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:PurposedText">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.PurposedText"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:State">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.State2"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:StateID">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.StateID"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:StateName">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.StateName"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:ActivityType">
+                  
+            <typesafeEnumClass ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.ActivityType"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:ContactPartyRoleType">
+                  
+            <typesafeEnumClass ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.ContactPartyRoleType"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:ContactType">
+                  
+            <typesafeEnumClass ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.ContactType"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:Gender">
+                  
+            <typesafeEnumClass ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.Gender"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:GeographicSiteType">
+                  
+            <typesafeEnumClass ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.GeographicSiteType"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:GeographicSiteTypeRole">
+                  
+            <typesafeEnumClass ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.GeographicSiteTypeRole"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:MaritalStatus">
+                  
+            <typesafeEnumClass ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.MaritalStatus"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:OrganizationType">
+                  
+            <typesafeEnumClass ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.OrganizationType"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:OtherIndividualIdentificationType">
+                  
+            <typesafeEnumClass ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.OtherIndividualIdentificationType"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:OtherOrganizationIdentificationType">
+                  
+            <typesafeEnumClass ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.OtherOrganizationIdentificationType"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:TextPurpose">
+                  
+            <typesafeEnumClass ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.TextPurpose"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:RegulatoryAuthority">
+                  
+            <typesafeEnumClass ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.RegulatoryAuthority"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:RegulatoryAuthorityType">
+                  
+            <typesafeEnumClass ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.RegulatoryAuthorityType"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:RevenueRange">
+                  
+            <typesafeEnumClass ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.RevenueRange"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:Salutation">
+                  
+            <typesafeEnumClass ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.Salutation"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:SecondaryContactPartyRoleType">
+                  
+            <typesafeEnumClass ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.SecondaryContactPartyRoleType"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:SizeEmployees">
+                  
+            <typesafeEnumClass ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.SizeEmployees"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:TelephoneType">
+                  
+            <typesafeEnumClass ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.TelephoneType"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:WorkItemCondition">
+                  
+            <typesafeEnumClass ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.WorkItemCondition"/>
+                
+        </bindings>
+          
+    </bindings>
+      
+    <bindings xmlns:tns="http://amdocs/tef-vivo/customerprofile-common/types/v1" if-exists="true" scd="x-schema::tns">
+            
+        <schemaBindings map="false">
+                  
+            <package name="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs"/>
+                
+        </schemaBindings>
+            
+        <bindings if-exists="true" scd="~tns:BankAccountID">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.BankAccountID"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:CardID">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.CardID"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:ContactPartyRoleRelationshipID">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.ContactPartyRoleRelationshipID"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:CustomerAccountID">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.CustomerAccountID"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:CustomerAccountIDAndName">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.CustomerAccountIDAndName"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:CustomerBillSpecAndChannelID">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.CustomerBillSpecAndChannelID"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:PayInstructionID">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.PayInstructionID"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:CustomerBillSpecCoreID">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.CustomerBillSpecCoreID"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:CustomerBillSpecID">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.CustomerBillSpecID"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:CustomerBillSpecIDAndName">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.CustomerBillSpecIDAndName"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:CustomerBillingProfileID">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.CustomerBillingProfileID"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:CustomerIdentificationDocument">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.CustomerIdentificationDocument"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:CustomerTypeAndSubType">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.CustomerTypeAndSubType"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:PartyRoleForCustomerTypeAndSubType">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.PartyRoleForCustomerTypeAndSubType"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:PartyRoleCustomerAccountInvolvementID">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.PartyRoleCustomerAccountInvolvementID"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:PartyRoleCustomerBillSpecInvolvementID">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.PartyRoleCustomerBillSpecInvolvementID"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:PayChannelIDAndType">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.PayChannelIDAndType"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:PayInstructionPayMeans">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.PayInstructionPayMeans"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:PrepaidBalanceID">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.PrepaidBalanceID"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:ResourcePool">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.ResourcePool"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:AccountStatus">
+                  
+            <typesafeEnumClass ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.AccountStatus"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:BalancePolicy">
+                  
+            <typesafeEnumClass ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.BalancePolicy"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:BillSpecStatus">
+                  
+            <typesafeEnumClass ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.BillSpecStatus"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:Brand">
+                  
+            <typesafeEnumClass ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.Brand"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:ChangeCycleStatus">
+                  
+            <typesafeEnumClass ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.ChangeCycleStatus"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:CustomerAccountDocumentType">
+                  
+            <typesafeEnumClass ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.CustomerAccountDocumentType"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:CustomerTypeLevel1All">
+                  
+            <typesafeEnumClass ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.CustomerTypeLevel1All"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:CustomerTypeLevel2All">
+                  
+            <typesafeEnumClass ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.CustomerTypeLevel2All"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:DocumentType">
+                  
+            <typesafeEnumClass ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.DocumentType"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:IndividualCustomerTypeLevel1">
+                  
+            <typesafeEnumClass ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.IndividualCustomerTypeLevel1"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:IndividualCustomerTypeLevel2">
+                  
+            <typesafeEnumClass ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.IndividualCustomerTypeLevel2"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:CustomerTypeLevel1">
+                  
+            <typesafeEnumClass ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.CustomerTypeLevel1"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:CustomerTypeLevel2">
+                  
+            <typesafeEnumClass ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.CustomerTypeLevel2"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:PartyRoleCustomerAccountInvolvementType">
+                  
+            <typesafeEnumClass ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.PartyRoleCustomerAccountInvolvementType"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:PartyRoleCustomerBillSpecInvolvementType">
+                  
+            <typesafeEnumClass ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.PartyRoleCustomerBillSpecInvolvementType"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:PartyRolePrepaidBalanceInvolvementType">
+                  
+            <typesafeEnumClass ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.PartyRolePrepaidBalanceInvolvementType"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:PayChannelType">
+                  
+            <typesafeEnumClass ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.PayChannelType"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:PrepaidBalanceStatus">
+                  
+            <typesafeEnumClass ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.PrepaidBalanceStatus"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:ProduceDocument">
+                  
+            <typesafeEnumClass ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.ProduceDocument"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:SecondaryPartyRoleCustomerAccountInvolvementType">
+                  
+            <typesafeEnumClass ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.SecondaryPartyRoleCustomerAccountInvolvementType"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:SecondaryPartyRoleCustomerBillSpecInvolvementType">
+                  
+            <typesafeEnumClass ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.SecondaryPartyRoleCustomerBillSpecInvolvementType"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:StreetType">
+                  
+            <typesafeEnumClass ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.StreetType"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:VoucherStatus">
+                  
+            <typesafeEnumClass ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.VoucherStatus"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:WriteOffStatus">
+                  
+            <typesafeEnumClass ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.WriteOffStatus"/>
+                
+        </bindings>
+          
+    </bindings>
+      
+    <bindings xmlns:tns="http://amdocs/tef-vivo/supplierpartner-common/types/v1" if-exists="true" scd="x-schema::tns">
+            
+        <schemaBindings map="false">
+                  
+            <package name="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs"/>
+                
+        </schemaBindings>
+            
+        <bindings if-exists="true" scd="~tns:Dealer">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.Dealer"/>
+                
+        </bindings>
+          
+    </bindings>
+      
+    <bindings xmlns:tns="http://amdocs/tef-vivo/customerproduct-common/types/v1" if-exists="true" scd="x-schema::tns">
+            
+        <schemaBindings map="false">
+                  
+            <package name="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs"/>
+                
+        </schemaBindings>
+            
+        <bindings if-exists="true" scd="~tns:CharacteristicID">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.CharacteristicID"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:ConfigurableCharacteristicID">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.ConfigurableCharacteristicID"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:ProductSpecCharacteristicID">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.ProductSpecCharacteristicID"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:CharacteristicValueForRequest">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.CharacteristicValueForRequest"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:ProductCharacteristicValueForRequest">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.ProductCharacteristicValueForRequest"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:EquipmentProductSerial">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.EquipmentProductSerial"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:EquipmentProductSpecification">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.EquipmentProductSpecification"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:EquipmentSerial">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.EquipmentSerial"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:ProductIDAndVersion">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.ProductIDAndVersion"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:ProductOfferingInstanceID">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.ProductOfferingInstanceID"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:ProductServiceExternalID">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.ProductServiceExternalID"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:ProductServiceID">
+                  
+            <class ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.ProductServiceID"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:ProductSpecificationType">
+                  
+            <typesafeEnumClass ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.ProductSpecificationType"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:ProductActivationStatus">
+                  
+            <typesafeEnumClass ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.ProductActivationStatus"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:ProductState">
+                  
+            <typesafeEnumClass ref="br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs.ProductState"/>
+                
+        </bindings>
+          
+    </bindings>
+    
+</bindings>

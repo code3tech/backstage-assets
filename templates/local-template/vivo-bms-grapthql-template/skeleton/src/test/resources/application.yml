@@ -1,0 +1,47 @@
+log:
+  file:
+    path: "${LOG_PATH:/tmp/logs}"
+management:
+  endpoints:
+    web:
+      base-path: "/"
+      path-mapping:
+        health: "healthcheck"
+server:
+  servlet:
+    context-path: "/${APPLICATION_PREFIX:customerinformationsummary/v1}"
+
+webservice:
+  api:
+    amdocs:
+      customerprofilemanagementport:
+        class:
+          package: br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs
+        login: ${AMDOCS_USER:GPS_NEXT}
+        password: ${AMDOCS_PASS:GPS_Next@01}
+        uri: ${AMDOCS_ENDPOINT:https://VLTB0204SL:10310/wsf-app-war/services/CustomerProfileManagementPort}
+    siebel:
+      getcustomer:
+        class:
+          package: br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.siebel
+        login: ${SIEBEL_USER:CRM_FASTDATA_WS}
+        password: ${SIEBEL_PASS:CRM_FASTDATA_WS}
+        uri: ${SIEBEL_ENDPOINT:http://newsalesqa3.gvt.com.br/eai_anon_ptb/start.swe?SWEExtSource=SecureWebService&SWEExtCmd=Execute}
+
+spring:
+    datasource:
+        url: ${VIVONET_JDBC:jdbc:oracle:thin:@//10.129.181.149:1521/fopaqa}
+        username: ${VIVONET_USER:AMDOCS_CN}
+        password: ${VIVONET_PASS:AMDOCS_CN}
+        driver-class-name: oracle.jdbc.OracleDriver
+        
+knox:
+    user: svc_preloadbd
+    password: Hbigdata@00
+    scheme: https
+    host: KNOX-HADOOP-DEV.REDECORP.BR
+    port: "443"
+    basePath: /gateway/cdp-proxy-api/hbase
+    namespace: HMLG
+    
+    

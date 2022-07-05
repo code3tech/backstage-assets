@@ -1,0 +1,31 @@
+pipeline {
+    agent any
+
+    stages {
+        stage('Prep') {
+            steps {
+                echo '################## REALIZANDO CHECKOUT TEMPLATE PIPELINES ##################'
+            }
+        }
+        stage('Deps') {
+            steps {
+                echo '################## CARREGANDO TEMPLATE PIPELINE ##################'
+            }
+        }
+        stage('Build') {
+            steps {
+                echo '################## CARREGANDO TEMPLATE PIPELINE ##################'
+            }
+        }
+        stage('Test') {
+            steps {
+                echo '################## CARREGANDO TEMPLATE PIPELINE ##################'
+            }
+        }
+        stage('Publish') {
+            steps {
+                echo '################## REALIZANDO CHECKOUT TEMPLATE PIPELINES ##################'
+            }
+        }
+    }
+}

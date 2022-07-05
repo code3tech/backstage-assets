@@ -1,0 +1,73 @@
+log:
+  file:
+    path: "${LOG_PATH:/tmp/logs}"
+management:
+  endpoints:
+    web:
+      base-path: "/"
+      path-mapping:
+        health: "healthcheck"
+server:
+  servlet:
+    context-path: "/${APPLICATION_PREFIX:customerinformationsummary/v1}"
+logging:
+  level:
+    org:
+      springframework:
+        web: DEBUG
+        ws:
+          client:
+            MessageTracing:
+              sent: TRACE
+              received: TRACE
+          server:
+            MessageTracing:
+              sent: TRACE
+              received: TRACE
+    reactor.netty.http.client: DEBUG
+
+webservice:
+  api:
+    amdocs:
+      customerprofilemanagementport:
+        class:
+          package: br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.amdocs
+        login: ${AMDOCS_USER:GPS_NEXT}
+        password: ${AMDOCS_PASS:GPS_Next@01}
+        uri: ${AMDOCS_ENDPOINT:https://VLTB0204SL:10310/wsf-app-war/services/CustomerProfileManagementPort}
+    siebel:
+      getcustomer:
+        class:
+          package: br.com.tlf.dip.customer.customerinformationmgmt.framework.adapter.out.stub.siebel
+        login: ${SIEBEL_USER:CRM_FASTDATA_WS}
+        password: ${SIEBEL_PASS:CRM_FASTDATA_WS}
+        uri: ${SIEBEL_ENDPOINT:http://newsalesqa3.gvt.com.br/eai_anon_ptb/start.swe?SWEExtSource=SecureWebService&SWEExtCmd=Execute}
+
+spring:
+  application:
+    name: "${APPLICATION_NAME:customer-information-summary}"
+  datasource:
+      url: ${VIVONET_JDBC:jdbc:oracle:thin:@//10.129.181.149:1521/fopaqa}
+      username: ${VIVONET_USER:AMDOCS_CN}
+      password: ${VIVONET_PASS:AMDOCS_CN}
+      driver-class-name: oracle.jdbc.OracleDriver
+oud:
+  endpoint: ${OUD_HOST:http://10.129.163.190:7010}
+  encoded-basic-credentials: ${OUD_BASIC:c3ZjX2NwdXNlcm12YXBwOjc2ZGo2NGxrczlXdDRnODk=}
+oam:
+  pubcert: ${OAM_CERT:MIICrzCCAhgCBHCo93EwDQYJKoZIhvcNAQELBQAwgZsxCzAJBgNVBAYTAlVTMRMwEQYDVQQIEwpDYWxpZm9ybmlhMRIwEAYDVQQHEwlDdXBlcnRpbm8xFDASBgNVBAoTC09ibGl4LCBJbmMuMREwDwYDVQQLEwhOZXRQb2ludDE6MDgGA1UEAxMxTmV0UG9pbnQgU2ltcGxlIFNlY3VyaXR5IENBIC0gTm90IGZvciBHZW5lcmFsIFVzZTAeFw0yMDAyMTcxOTE3NDlaFw0yNTAyMTUxOTE3NDlaMB0xGzAZBgNVBAMTElZpdm9DdXN0b21lckRvbWFpbjCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAIXC8Oe8IQbil55/QQk/AEWChrk61uDerOK7Ht8gHw4YrrM+zxxeMWakPsoKlQgj9s3KFbHDY0Bzx+ba3u5AoKMv007MuQdcvzgNxhn1e8a9jjECnzH1ocdWYKeQFPqGpv7cjdC41bETlias8HS4zVKjrLFWRvoLnHId948b0oODfPJ56uLib8zmjUThI/78yNlIL989FWBOS8bogn5/8pL24qb/CmiKhKrKm8ve2pb7gwD2ZdhND6ZIkqFvHCIQgyiLvpwnY0v2fUI9CgKYrU7W/Yoha8ArDbnYaBXYdeAcXek60Gyqk1P3GGNDevwuHoAxnuVmOgoSklcgaqhkYaMCAwEAATANBgkqhkiG9w0BAQsFAAOBgQA4ElnEAX8cmCXJP2I5frFFOoGkks6ShMtmeEt9ah4+gocftCsFNfQC484iAmbQmCv48XSQkJZYyHhwpWvV3/1Zf7RFU8e3Jnoq7ReMY+NosZKye5HKhKgCaROdc88lcDrioLQj+8bYg7nA5iK8RQ8pla4U1qGeCvELngHnwyvijg==}
+  client-id: ${OAM_CLIENT:19426c7400274e2394d95cd00276877b, 550746a0644dbc602f29658ec5729894, cafd650aad4c409aa7b3951de352a9d7}
+  scope: ${OAM_SCOPE:openid, ServiceAccount.Profile}
+
+knox:
+    user: ${KNOX_USER:SVC_EMAILUP}
+    password: ${KNOX_PASSWORD:$Pemailunico1}
+    scheme: ${KNOX_SCHEME:https}
+    host: ${KNOX_HOST:KNOX-HADOOP-OPERACIONAL.REDECORP.BR}
+    port: ${KNOX_PORT:443}
+    basePath: ${KNOX_BASE_PATH:/gateway/cdp-proxy-api/hbase}
+    namespace: ${KNOX_NAMESPACE:EMAILUNICO}
+    tableCnpj: ${KNOX_TBL_EMAIL_UNICO_CNPJ:TBL_EMAIL_UNICO_CNPJ}
+    tableConta: ${KNOX_TBL_EMAIL_UNICO_CONTA:TBL_EMAIL_UNICO_CONTA}
+    tableEmail: ${KNOX_TBL_EMAIL_UNICO_EMAIL:TBL_EMAIL_UNICO_EMAIL}
+    tableLiha: ${KNOX_TBL_EMAIL_UNICO_LINHA:TBL_EMAIL_UNICO_LINHA}

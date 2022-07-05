@@ -1,0 +1,8 @@
+apiVersion: backstage.io/v1alpha1
+kind: Location
+metadata:
+  name: operation-api
+  description: A collection of remotely available Backstage example templates
+spec:
+  targets:
+    - https://github.com/code3tech/backstage-assets/blob/main/templates/operation-template/vivo-upload-contract/template.yaml

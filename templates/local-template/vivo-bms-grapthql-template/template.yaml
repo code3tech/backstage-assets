@@ -1,0 +1,97 @@
+apiVersion: scaffolder.backstage.io/v1beta3
+kind: Template
+metadata:
+  name: vivo-bms-grapthql-template
+  title: BMS GrapthQL
+  description: Cria um serviço simples do tipo BMS Spring Boot Java usando skeleton
+  tags:
+    - recommended
+    - java
+    - skeleton
+    - bms
+    - spring
+    - vivo
+spec:
+  owner: service@example.com
+  type: service
+
+  parameters:
+    - title: Provide some simple information
+      required:
+        - component_id
+        - owner
+        - description
+        - java_package_name
+      properties:
+        component_id:
+          title: Name
+          type: string
+          description: Unique name of the component
+          ui:field: EntityNamePicker
+        java_package_name:
+          title: Java Package Name
+          type: string
+          description: Name for the java package. eg (io.backstage.blah)
+        description:
+          title: Description
+          type: string
+          description: Help others understand what this website is for.
+        owner:
+          title: Owner
+          type: string
+          description: Owner of the component
+          ui:field: OwnerPicker
+          ui:options:
+            allowedKinds:
+              - Group
+        system:
+          title: Sistema associado
+          type: string
+          description: Sistema ao qual o recurso pertence
+          ui:field: EntityPicker
+          ui:options:
+            allowedKinds:
+              - System
+        oas:
+          title: Spec
+          type: string
+          description: Open Api 3.0 Specification
+          format: data-url
+
+  steps:
+    - id: template
+      name: Fetch Skeleton + Template
+      action: fetch:template
+      input:
+        url: https://github.com/code3tech/backstage-assets/blob/main/templates/local-template/vivo-bms-grapthql-template/skeleton
+        copyWithoutRender:
+          - .github/workflows/*
+        values:
+          component_id: ${{ parameters.component_id }}
+          description: ${{ parameters.description }}
+          artifact_id: ${{ parameters.component_id }}
+          java_package_name: ${{ parameters.java_package_name }}
+          owner: ${{ parameters.owner }}
+          oas: ${{ parameters.oas | k3tBase64d }}
+          system: ${{ parameters.system }}
+    - id: publish
+      name: Publish
+      action: publish:gitlab
+      input:
+        allowedHosts: ["gitlab.com"]
+        description: Thi/template.yamls is ${{ parameters.component_id }}
+        repoUrl: "gitlab.com?owner=vvtlfnc&repo=${{ parameters.component_id }}"
+    - id: register
+      name: Register
+      action: catalog:register
+      input:
+        repoContentsUrl: ${{ steps.publish.output.repoContentsUrl }}
+        catalogInfoPath: "/catalog-info.yaml"
+
+  output:
+    links:
+      - title: Repository
+        url: ${{ steps.publish.output.remoteUrl }}
+      - title: Open in catalog
+        icon: catalog
+        entityRef: ${{ steps.register.output.entityRef }}

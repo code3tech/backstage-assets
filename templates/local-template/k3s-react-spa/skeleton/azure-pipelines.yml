@@ -1,0 +1,60 @@
+# Docker
+# Build a Docker image
+# https://docs.microsoft.com/azure/devops/pipelines/languages/docker
+# pool:
+#   vmImage: 'ubuntu-latest'
+
+trigger:
+  - master
+
+resources:
+  - repo: self
+
+variables:
+  tag: '$(Build.BuildId)'
+  name: '${{values.destination.repo}}'
+
+stages:
+  - stage: Build
+    displayName: Build image
+    jobs:
+      - job: Build
+        displayName: Build
+        pool: default
+        steps:
+          - task: Maven@3
+            inputs:
+              mavenPomFile: 'pom.xml'
+              mavenOptions: '-Xmx3072m'
+              publishJUnitResults: false
+              testResultsFiles: '**/TEST-*.xml'
+              goals: 'package'
+
+          - task: Bash@3
+            displayName: Deploy SWAgent
+            inputs:
+              targetType: 'inline'
+              script: wget https://dlcdn.apache.org/skywalking/java-agent/8.10.0/apache-skywalking-java-agent-8.10.0.tgz
+
+
+          - task: Bash@3
+            displayName: Build an image
+            inputs:
+              targetType: 'inline'
+              script:  |
+                APP_VERSION=$(mvn help:evaluate -Dexpression=project.version -q -DforceStdout)
+                docker build . -t irgmachado/${{ variables.name }}:${APP_VERSION}-b${{ variables.tag }}  -t irgmachado/${{ variables.name }}:latest
+
+          - task: Bash@3
+            displayName: Publish an image with tag
+            inputs:
+              targetType: 'inline'
+              script: |
+                APP_VERSION=$(mvn help:evaluate -Dexpression=project.version -q -DforceStdout)
+                docker push irgmachado/${{ variables.name }}:${APP_VERSION}-b${{ variables.tag }}
+
+          - task: Bash@3
+            displayName: Publish an image with tag
+            inputs:
+              targetType: 'inline'
+              script: docker push irgmachado/${{ variables.name }}:latest

@@ -1,0 +1,80 @@
+apiVersion: scaffolder.backstage.io/v1beta3
+kind: Template
+metadata:
+  name: vivo-upload-contract
+  title: Atualizar contrato (Swaggaer 2.X)
+  description: Atualiza um contrato e confronta contra os gateways de qualidade, atualizando a API e alterando o ciclo de vida da API para designed. Esse templata suporta somente Swaggaer
+  tags:
+    - swagger
+spec:
+  owner: service@example.com
+  type: service
+
+  parameters:
+    - title: Atualizar Contrato de API
+      required:
+        - comentario
+        - api
+      properties:
+        oas:
+          title: Spec
+          type: string
+          description: Open Api 3.0 specification ou Swagger specification
+          format: data-url
+          ui:options:
+            accept:
+              - .yaml
+          ui:backstage:
+            review:
+              show: false
+
+        comentario:
+          title: Comentários
+          type: string
+          description: Será usado no commit do repositório e na PR a ser aberta.
+
+        api:
+          title: API
+          type: string
+          description: API que será atualizada com o novo design.
+          ui:field: EntityPicker
+          ui:options:
+            allowedKinds:
+              - Component
+              - API
+        user:
+          title: Usuário
+          type: string
+          description: Usuários responsável pelo design da API.
+          ui:field: EntityPicker
+          ui:options:
+            allowedKinds:
+              - User
+        mail:
+          title: E-Mail
+          type: string
+          description: E-Mail do Responsável responsável pelo design da API.
+
+
+  steps:
+    - id: create_pipeline_request
+      name: Creating Pipeline
+      action: http:backstage:request
+      input:
+        method: 'PUT'
+        path: 'https://jenkins-proxy.kode3.app//api/v1/contract/swagger?projectUrl=vvtlfnc&projectName=${{ parameters.api }}'
+        body:
+          name: '${{ parameters.user }}'
+          mail: '${{ parameters.mail }}'
+          contract: '${{ parameters.oas }}'
+          message: '${{ parameters.comentario }}'
+        headers:
+          content-type: 'application/json'
+    - id: create_merge_request
+      name:
+
+  output:
+    links:
+      - title: Open in catalog
+        icon: catalog
+        url: ${{ steps.publish.output.remoteUrl }}

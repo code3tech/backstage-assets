@@ -1,0 +1,15 @@
+{
+    "ui:order": [
+      "server_side_observability", "server_side_observability_service_name", "server_side_observability_service_instance", "server_side_observability_collector_address",
+      "client_side_observability", "client_side_observability_service_name", "client_side_observability_service_version", "client_side_observability_collector_address",
+      "k3s_datalayer_proxy", "k3s_datalayer_proxy_collector_address",
+      "oauth2", "oauth2_authorization_url", "oauth2_response_type", "oauth2_client_id", "oauth2_client_secret", "oauth2_redirect_uri"
+    ],
+    "tasks": {
+      "items": {
+        "details": {
+          "ui:widget": "textarea"
+        }
+      }
+    }
+  }

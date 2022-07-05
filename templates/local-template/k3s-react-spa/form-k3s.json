@@ -1,0 +1,136 @@
+{
+    "type": "object",
+    "title": "A list of tasks",
+    "properties": {
+        "server_side_observability": {
+            "type": "boolean",
+            "title": "Habilitar observabilidade no serviço",
+            "default": false
+        },
+        "client_side_observability": {
+            "type": "boolean",
+            "title": "Habilitar observabilidade no client",
+            "default": false
+        },
+        "k3s_datalayer_proxy": {
+            "type": "boolean",
+            "title": "Habilitar k3s data layer",
+            "default": false
+        },
+        "oauth2": {
+            "type": "boolean",
+            "title": "Autenticação do usuário com OAuth 2.0",
+            "default": false
+        }
+    },
+    "allOf": [
+        {
+            "if": {
+                "properties": {
+                    "server_side_observability": {
+                        "const": true
+                    }
+                }
+            },
+            "then": {
+                "type": "object",
+                "title": "Server Site Observability Configuration",
+                "properties": {
+                    "server_side_observability_service_name": {
+                        "title": "Nome do serviço",
+                        "type": "string"
+                    },
+                    "server_side_observability_service_instance": {
+                        "title": "Instância do serviço",
+                        "type": "string"
+                    },
+                    "server_side_observability_collector_address": {
+                        "title": "Endereço do coletor (Apache Skywalking)",
+                        "type": "string"
+                    }
+                }
+            }
+        },
+        {
+            "if": {
+                "properties": {
+                    "client_side_observability": {
+                        "const": true
+                    }
+                }
+            },
+            "then": {
+                "type": "object",
+                "title": "Client Site Observability Configuration",
+                "properties": {
+                    "client_side_observability_service_name": {
+                        "title": "Nome do serviço",
+                        "type": "string"
+                    },
+                    "client_side_observability_service_version": {
+                        "title": "Versão do serviço",
+                        "type": "string"
+                    },
+                    "client_side_observability_collector_address": {
+                        "title": "Endereço do coletor (Apache Skywalking)",
+                        "type": "string"
+                    }
+                }
+            }
+        },
+        {
+            "if": {
+                "properties": {
+                    "k3s_datalayer_proxy": {
+                        "const": true
+                    }
+                }
+            },
+            "then": {
+                "type": "object",
+                "title": "K3S-Data Layer Configuration",
+                "properties": {
+                    "k3s_datalayer_proxy_collector_address": {
+                        "title": "Endereço do coletor (K3S Data Layer)",
+                        "type": "string"
+                    }
+                }
+            }
+        },
+        {
+            "if": {
+                "properties": {
+                    "oauth2": {
+                        "const": true
+                    }
+                }
+            },
+            "then": {
+                "type": "object",
+                "title": "OAuth2 Configuration",
+                "properties": {
+                    "oauth2_authorization_url": {
+                        "title": "Authorization url",
+                        "type": "string"
+                    },
+                    "oauth2_response_type": {
+                        "title": "Response type",
+                        "type": "string"
+                    },
+                    "oauth2_client_id": {
+                        "title": "Client ID",
+                        "type": "string"
+                    },
+                    "oauth2_client_secret": {
+                        "title": "Client secret",
+                        "type": "string"
+                    },
+                    "oauth2_redirect_uri": {
+                        "title": "Redirect url",
+                        "type": "string"
+                    }
+                }
+            }
+        }
+    ]
+}
