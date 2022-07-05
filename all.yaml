@@ -5,8 +5,8 @@ metadata:
   description: A collection of all Backstage example entities, except users, groups, and templates
 spec:
   targets:
-    # - ./all-apis.yaml
-    # - ./all-components.yaml
-    # - ./all-domains.yaml
-    # - ./all-resources.yaml
-    # - ./all-systems.yaml
+    # - https://github.com/code3tech/backstage-assets/blob/main/all-apis.yaml
+    # - https://github.com/code3tech/backstage-assets/blob/main/all-components.yaml
+    # - https://github.com/code3tech/backstage-assets/blob/main/all-domains.yaml
+    # - https://github.com/code3tech/backstage-assets/blob/main/all-resources.yaml
+    # - https://github.com/code3tech/backstage-assets/blob/main/all-systems.yaml

@@ -5,6 +5,6 @@ metadata:
   description: A collection of all Backstage example systems
 spec:
   targets:
-    - ./systems/artist-engagement-portal-system.yaml
-    - ./systems/audio-playback-system.yaml
-    - ./systems/podcast-system.yaml
+    - https://github.com/code3tech/backstage-assets/blob/main/systems/artist-engagement-portal-system.yaml
+    - https://github.com/code3tech/backstage-assets/blob/main/systems/audio-playback-system.yaml
+    - https://github.com/code3tech/backstage-assets/blob/main/systems/podcast-system.yaml

@@ -5,11 +5,11 @@ metadata:
   description: A collection of all Backstage example components
 spec:
   targets:
-    - ./components/status/deprecated-component.yaml
-    - ./components/status/designed-component.yaml
-    - ./components/status/development-component.yaml
-    - ./components/status/draft-component.yaml
-    - ./components/status/production-component.yaml
-    - ./components/status/retired-component.yaml
-    - ./components/status/testing-component.yaml
-    - ./components/status/deprecated-component.yaml
+    - https://github.com/code3tech/backstage-assets/blob/main/components/status/deprecated-component.yaml
+    - https://github.com/code3tech/backstage-assets/blob/main/components/status/designed-component.yaml
+    - https://github.com/code3tech/backstage-assets/blob/main/components/status/development-component.yaml
+    - https://github.com/code3tech/backstage-assets/blob/main/components/status/draft-component.yaml
+    - https://github.com/code3tech/backstage-assets/blob/main/components/status/production-component.yaml
+    - https://github.com/code3tech/backstage-assets/blob/main/components/status/retired-component.yaml
+    - https://github.com/code3tech/backstage-assets/blob/main/components/status/testing-component.yaml
+    - https://github.com/code3tech/backstage-assets/blob/main/components/status/deprecated-component.yaml

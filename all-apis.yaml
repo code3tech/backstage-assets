@@ -5,10 +5,10 @@ metadata:
   description: A collection of all Backstage example APIs
 spec:
   targets:
-    - ./apis/hello-world-api.yaml
-    - ./apis/petstore-api.yaml
-    - ./apis/spotify-api.yaml
-    - ./apis/streetlights-api.yaml
-    - ./apis/swapi-graphql.yaml
-    - ./apis/wayback-archive-api.yaml
-    - ./apis/wayback-search-api.yaml
+    - https://github.com/code3tech/backstage-assets/blob/main/apis/hello-world-api.yaml
+    - https://github.com/code3tech/backstage-assets/blob/main/apis/petstore-api.yaml
+    - https://github.com/code3tech/backstage-assets/blob/main/apis/spotify-api.yaml
+    - https://github.com/code3tech/backstage-assets/blob/main/apis/streetlights-api.yaml
+    - https://github.com/code3tech/backstage-assets/blob/main/apis/swapi-graphql.yaml
+    - https://github.com/code3tech/backstage-assets/blob/main/apis/wayback-archive-api.yaml
+    - https://github.com/code3tech/backstage-assets/blob/main/apis/wayback-search-api.yaml

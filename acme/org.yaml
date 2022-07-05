@@ -23,36 +23,28 @@ metadata:
   description: A collection of all Backstage example Groups
 spec:
   targets:
-    - ./infrastructure-group.yaml
-    - ./integration-group.yaml
-    - ./business-partner-group.yaml
-
-    - ./contextos-group.yaml
-    - ./cliente-group.yaml
-    - ./catalogo-group.yaml
-    - ./pagamento-group.yaml
-    - ./pedido-group.yaml
-    - ./frete-group.yaml
-
-    - ./canais-group.yaml
-    - ./digitais-group.yaml
-    - ./app-group.yaml
-    - ./web-group.yaml
-    - ./team-vitrine-group.yaml
-    - ./team-checkout-group.yaml
-    - ./team-pos-vendas-group.yaml
-    - ./team-area-logada-group.yaml
-    
-
-
-    - ./fisicos-group.yaml
-    - ./pdv-group.yaml
-
-    - ./infra-group.yaml
-    - ./inteligencia-group.yaml
-    # - ./boxoffice-group.yaml
-    # - ./backstage-group.yaml
-    - ./team-a-group.yaml
-    - ./team-b-group.yaml
-    - ./team-c-group.yaml
-    - ./team-d-group.yaml
+    - https://github.com/code3tech/backstage-assets/blob/main/infrastructure-group.yaml
+    - https://github.com/code3tech/backstage-assets/blob/main/integration-group.yaml
+    - https://github.com/code3tech/backstage-assets/blob/main/business-partner-group.yaml
+    - https://github.com/code3tech/backstage-assets/blob/main/contextos-group.yaml
+    - https://github.com/code3tech/backstage-assets/blob/main/cliente-group.yaml
+    - https://github.com/code3tech/backstage-assets/blob/main/catalogo-group.yaml
+    - https://github.com/code3tech/backstage-assets/blob/main/pagamento-group.yaml
+    - https://github.com/code3tech/backstage-assets/blob/main/pedido-group.yaml
+    - https://github.com/code3tech/backstage-assets/blob/main/frete-group.yaml
+    - https://github.com/code3tech/backstage-assets/blob/main/canais-group.yaml
+    - https://github.com/code3tech/backstage-assets/blob/main/digitais-group.yaml
+    - https://github.com/code3tech/backstage-assets/blob/main/app-group.yaml
+    - https://github.com/code3tech/backstage-assets/blob/main/web-group.yaml
+    - https://github.com/code3tech/backstage-assets/blob/main/team-vitrine-group.yaml
+    - https://github.com/code3tech/backstage-assets/blob/main/team-checkout-group.yaml
+    - https://github.com/code3tech/backstage-assets/blob/main/team-pos-vendas-group.yaml
+    - https://github.com/code3tech/backstage-assets/blob/main/team-area-logada-group.yaml
+    - https://github.com/code3tech/backstage-assets/blob/main/fisicos-group.yaml
+    - https://github.com/code3tech/backstage-assets/blob/main/pdv-group.yaml
+    - https://github.com/code3tech/backstage-assets/blob/main/infra-group.yaml
+    - https://github.com/code3tech/backstage-assets/blob/main/inteligencia-group.yaml
+    - https://github.com/code3tech/backstage-assets/blob/main/team-a-group.yaml
+    - https://github.com/code3tech/backstage-assets/blob/main/team-b-group.yaml
+    - https://github.com/code3tech/backstage-assets/blob/main/team-c-group.yaml
+    - https://github.com/code3tech/backstage-assets/blob/main/team-d-group.yaml
