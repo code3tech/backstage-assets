@@ -1,24 +1,38 @@
 apiVersion: scaffolder.backstage.io/v1beta3
 kind: Template
 metadata:
-  name: vivo-development-oas-template
-  title: BMS OpenAPI Rest Start Development
-  description: Inicia o processo de desenvolvimento de uma apiBaseUrl
+  name: vivo-upload-contract
+  title: Atualizar contrato (Swaggaer 2.X)
+  description: Atualiza um contrato e confronta contra os gateways de qualidade, atualizando a API e alterando o ciclo de vida da API para designed. Esse templata suporta somente Swaggaer
   tags:
-    - recommended
-    - java
-    - bms
-    - spring
-    - vivo
+    - swagger
 spec:
   owner: service@example.com
   type: service
 
   parameters:
-    - title: Iniciar processo de desenvolvimento de API
+    - title: Atualizar Contrato de API
       required:
+        - comentario
         - api
       properties:
+        oas:
+          title: Spec
+          type: string
+          description: Open Api 3.0 specification ou Swagger specification
+          format: data-url
+          ui:options:
+            accept:
+              - .yaml
+          ui:backstage:
+            review:
+              show: false
+
+        comentario:
+          title: Comentários
+          type: string
+          description: Será usado no commit do repositório e na PR a ser aberta.
+
         api:
           title: API
           type: string
@@ -26,6 +40,7 @@ spec:
           ui:field: EntityPicker
           ui:options:
             allowedKinds:
+              - Component
               - API
         user:
           title: Usuário
@@ -47,13 +62,14 @@ spec:
       action: http:backstage:request
       input:
         method: 'PUT'
-        path: 'https://gitlab-proxy.kode3.app/api/v1/contract/development?projectUrl=vvtlfnc&projectName=${{ parameters.api }}'
+        path: 'https://gitlab-proxy.kode3.app/api/v1/contract/swagger?projectUrl=vvtlfnc&projectName=${{ parameters.api }}'
         body:
           name: '${{ parameters.user }}'
           mail: '${{ parameters.mail }}'
+          contract: '${{ parameters.oas }}'
+          message: '${{ parameters.comentario }}'
         headers:
           content-type: 'application/json'
-
   output:
     links:
       - title: Open in catalog

@@ -11,4 +11,5 @@ spec:
     - https://github.com/code3tech/backstage-assets/blob/main/templates/local-template/vivo-bms-grpc-template/template.yaml
     - https://github.com/code3tech/backstage-assets/blob/main/templates/local-template/vivo-bms-oas-template/template.yaml
     - https://github.com/code3tech/backstage-assets/blob/main/templates/local-template/vivo-bms-template/template.yaml
+    - https://github.com/code3tech/backstage-assets/blob/main/templates/local-template/vivo-development-oas-template/template.yaml
 
