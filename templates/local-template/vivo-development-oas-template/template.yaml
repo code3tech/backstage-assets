@@ -1,0 +1,61 @@
+apiVersion: scaffolder.backstage.io/v1beta3
+kind: Template
+metadata:
+  name: vivo-development-oas-template
+  title: BMS OpenAPI Rest Start Development
+  description: Inicia o processo de desenvolvimento de uma apiBaseUrl
+  tags:
+    - recommended
+    - java
+    - bms
+    - spring
+    - vivo
+spec:
+  owner: service@example.com
+  type: service
+
+  parameters:
+    - title: Iniciar processo de desenvolvimento de API
+      required:
+        - api
+      properties:
+        api:
+          title: API
+          type: string
+          description: API que será atualizada com o novo design.
+          ui:field: EntityPicker
+          ui:options:
+            allowedKinds:
+              - API
+        user:
+          title: Usuário
+          type: string
+          description: Usuários responsável pelo design da API.
+          ui:field: EntityPicker
+          ui:options:
+            allowedKinds:
+              - User
+        mail:
+          title: E-Mail
+          type: string
+          description: E-Mail do Responsável responsável pelo design da API.
+
+
+  steps:
+    - id: create_pipeline_request
+      name: Creating Pipeline
+      action: http:backstage:request
+      input:
+        method: 'PUT'
+        path: 'https://gitlab-proxy.kode3.app/api/v1/contract/development?projectUrl=vvtlfnc&projectName=${{ parameters.api }}'
+        body:
+          name: '${{ parameters.user }}'
+          mail: '${{ parameters.mail }}'
+        headers:
+          content-type: 'application/json'
+
+  output:
+    links:
+      - title: Open in catalog
+        icon: catalog
+        url: ${{ steps.publish.output.remoteUrl }}
