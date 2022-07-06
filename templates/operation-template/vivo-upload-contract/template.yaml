@@ -70,9 +70,7 @@ spec:
           message: '${{ parameters.comentario }}'
         headers:
           content-type: 'application/json'
-    - id: create_merge_request
-      name:
-
+ 
   output:
     links:
       - title: Open in catalog
