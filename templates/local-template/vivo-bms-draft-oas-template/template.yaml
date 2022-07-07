@@ -1,0 +1,136 @@
+apiVersion: scaffolder.backstage.io/v1beta3
+kind: Template
+metadata:
+  name: vivo-bms-draft-oas-template
+  title: Draft BMS OpenAPI
+  description: Provisiona uma governança de uma api que ainda não possui um contrato definido
+  tags:
+    - recommended
+    - bms
+    - vivo
+spec:
+  owner: service@example.com
+  type: service
+
+  parameters:
+    - title: Provisiona uma governança de uma api que ainda não possui um contrato definido
+      required:
+        - component_id
+        - owner
+        - description
+      properties:
+        component_id:
+          title: Name
+          type: string
+          description: Unique name of the component
+          ui:field: EntityNamePicker
+        description:
+          title: Description
+          type: string
+          description: Help others understand what this website is for.
+        owner:
+          title: Owner
+          type: string
+          description: Owner of the component
+          ui:field: OwnerPicker
+          ui:options:
+            allowedKinds:
+              - Group
+        system:
+          title: Sistema associado
+          type: string
+          description: Sistema ao qual o recurso pertence
+          ui:field: EntityPicker
+          ui:options:
+            allowedKinds:
+              - System
+        oas:
+          title: Spec
+          type: string
+          description: Open Api 3.0 Specification / Swagger specification
+          format: data-url
+          ui:options:
+            accept:
+              - .yaml
+
+  steps:
+    - id: template
+      name: Fetch Skeleton + Template
+      action: fetch:template
+      input:
+        url: https://github.com/code3tech/backstage-assets/blob/main/templates/local-template/vivo-bms-draft-oas-template/skeleton
+        copyWithoutRender:
+          - .github/workflows/*
+        values:
+          component_id: ${{ parameters.component_id }}
+          description: ${{ parameters.description }}
+          owner: ${{ parameters.owner }}
+          oas: ${{ parameters.oas | k3tBase64d }}
+          system: ${{ parameters.system }}
+
+    - id: csrf_request
+      name: CSRF Protection (Create Pipeline)
+      action: http:backstage:request
+      input:
+        method: 'GET'
+        path: 'https://jenkins.kode3.app/crumbIssuer/api/json'
+        headers:
+          content-type: 'application/json'
+          Authorization: 'Basic YWRtaW46YWYyMmViMjItNWIxNy00NzkwLTg4NTYtNDNlMjRkOGQzYzUz'
+
+    - id: create_pipeline_request
+      name: Creating Pipeline
+      action: http:backstage:request
+      input:
+        method: 'POST'
+        path: 'https://jenkins-proxy.kode3.app/api/pipeline?name=${{ parameters.component_id }}'
+        headers:
+          content-type: 'application/xml'
+          Jenkins-Crumb: '${{ steps.csrf_request.output.body.crumb }}'
+          Authorization: 'Basic YWRtaW46YWYyMmViMjItNWIxNy00NzkwLTg4NTYtNDNlMjRkOGQzYzUz'
+          Cookie: '${{ steps.csrf_request.output.headers.setCookie }}'
+
+    - id: publish
+      name: Publish
+      action: publish:gitlab
+      input:
+        allowedHosts: ["gitlab.com"]
+        description: Thi/template.yamls is ${{ parameters.component_id }}
+        repoUrl: "gitlab.com?owner=vvtlfnc&repo=${{ parameters.component_id }}"
+
+    - id: csrf_request_2
+      name: CSRF Protection (Scan Pipeline)
+      action: http:backstage:request
+      input:
+        method: 'GET'
+        path: 'https://jenkins.kode3.app/crumbIssuer/api/json'
+        headers:
+          content-type: 'application/json'
+          Authorization: 'Basic YWRtaW46YWYyMmViMjItNWIxNy00NzkwLTg4NTYtNDNlMjRkOGQzYzUz'
+
+    - id: scan_pipeline_request
+      name: Scan Pipeline
+      action: http:backstage:request
+      input:
+        method: 'POST'
+        path: 'https://jenkins.kode3.app/job/vvtlfnc/job/${{ parameters.component_id }}/build'
+        headers:
+          content-type: 'application/xml'
+          Jenkins-Crumb: '${{ steps.csrf_request_2.output.body.crumb }}'
+          Authorization: 'Basic YWRtaW46YWYyMmViMjItNWIxNy00NzkwLTg4NTYtNDNlMjRkOGQzYzUz'
+          Cookie: '${{ steps.csrf_request_2.output.headers.setCookie }}'
+
+    - id: register
+      name: Register
+      action: catalog:register
+      input:
+        repoContentsUrl: ${{ steps.publish.output.repoContentsUrl }}
+        catalogInfoPath: "/catalog-info.yaml"
+
+  output:
+    links:
+      - title: Repository
+        url: ${{ steps.publish.output.remoteUrl }}
+      - title: Open in catalog
+        icon: catalog
+        entityRef: ${{ steps.register.output.entityRef }}
